@@ -1,0 +1,20 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "auth to bitbucket",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "auth": "node ./auth"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "standard": "^11.0.1",
+    "unit.js": "^2.0.0"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "dataloader": "^1.4.0",
+    "moment": "^2.22.1"
+  }
+}
