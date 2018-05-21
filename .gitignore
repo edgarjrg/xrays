@@ -61,4 +61,4 @@ typings/
 .next
 
 #hide local creds
-auth/creds/
+creds/

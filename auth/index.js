@@ -1,7 +1,7 @@
 const fetch = require('node-fetch')
 const FormData = require('form-data')
 const Promise = require('bluebird')
-const {KEY, SECRET, PASS} = require('./creds')
+const {KEY, SECRET, PASS} = require('../creds')
 const moment = require('moment')
 
 function postData (url) {
