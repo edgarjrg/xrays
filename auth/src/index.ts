@@ -23,7 +23,7 @@ function postData (url) {
 }
 
 
-class Auth {
+export class Auth {
   response
   ttl
 
@@ -46,10 +46,6 @@ class Auth {
       return this._logIn()
     }
   }
-}
-
-module.exports = {
-  Auth: Auth
 }
 
 // // manual test
