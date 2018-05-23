@@ -1,8 +1,8 @@
-const fetch = require('node-fetch')
-const FormData = require('form-data')
-const Promise = require('bluebird')
-const {KEY, SECRET, PASS} = require('../creds')
-const moment = require('moment')
+import fetch from 'node-fetch'
+import * as FormData from 'form-data'
+import * as Promise from 'bluebird'
+import {KEY, SECRET, PASS} from '../../creds'
+import * as moment from 'moment'
 
 function postData (url) {
   const form = new FormData()
@@ -22,10 +22,12 @@ function postData (url) {
     .then(response => response.json())
 }
 
+
 class Auth {
+  response
+  ttl
+
   constructor () {
-    this.response = undefined
-    this.ttl = undefined
   }
 
   _logIn () {
@@ -50,7 +52,7 @@ module.exports = {
   Auth: Auth
 }
 
-// manual test
+// // manual test
 // let a = new Auth()
 // a.logIn()
 //   .tap(console.log)

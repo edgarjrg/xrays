@@ -62,3 +62,7 @@ typings/
 
 #hide local creds
 creds/
+
+#hide typescript generated files
+*.js
+*.map

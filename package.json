@@ -5,16 +5,19 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "auth": "node ./auth"
+    "auth": "nodemon --watch 'auth/src/**/*.ts' --ignore 'auth/src/**/*.spec.ts' --exec 'ts-node' auth/src/index.ts"
   },
   "devDependencies": {
+    "@types/node": "^10.1.2",
     "mocha": "^5.2.0",
     "standard": "^11.0.1",
+    "ts-node": "^6.0.3",
+    "typescript": "^2.8.3",
     "unit.js": "^2.0.0"
   },
   "dependencies": {
-    "ramda": "^0.25.0",
     "dataloader": "^1.4.0",
-    "moment": "^2.22.1"
+    "moment": "^2.22.1",
+    "ramda": "^0.25.0"
   }
 }
