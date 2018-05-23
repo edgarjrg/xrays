@@ -5,13 +5,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "auth": "nodemon --watch 'auth/src/**/*.ts' --ignore 'auth/src/**/*.spec.ts' --exec 'ts-node' auth/src/index.ts"
+    "auth": "nodemon --watch 'auth/src/**/*.ts' --ignore 'auth/src/**/*.spec.ts' --exec 'ts-node' auth/src/index.ts",
+    "repos": "nodemon --watch '*.ts' --exec 'tsc && ts-node' repositories/src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^10.1.2",
     "mocha": "^5.2.0",
     "standard": "^11.0.1",
     "ts-node": "^6.0.3",
+    "tslint": "^5.10.0",
     "typescript": "^2.8.3",
     "unit.js": "^2.0.0"
   },
