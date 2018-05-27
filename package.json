@@ -8,7 +8,7 @@
     "auth": "nodemon --watch 'auth/src/**/*.ts' --ignore 'auth/src/**/*.spec.ts' --exec 'ts-node' auth/src/index.ts",
     "repos": "nodemon --watch '*.ts' --exec 'tsc && ts-node' repositories/src/index.ts",
     "tsc:watch": "tsc --watch",
-    "test": "jest --watchAll --no-cache"
+    "test": "jest --watch"
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.20",
