@@ -16,6 +16,10 @@ export const ACTIVITY_IN_PULL_REQUESTS_TEMPLATE =
     ({ userName, repoSlug }: IRepository): string =>
         `${api2}repositories/${userName}/${repoSlug}/pullrequests/activity`;
 
+export const ACTIVITY_IN_PULL_REQUEST_TEMPLATE =
+    ({ userName, repoSlug }: IRepository, pullRequestId: number): string =>
+        `${api2}repositories/${userName}/${repoSlug}/pullrequests/${pullRequestId}/activity`;
+
 // export function TASKS_IN_PULL_REQUEST_TEMPLATE({ repoSlug, projectKey }: IRepository, pullRequestId: number): string {
 //     return `${api1}/projects/${projectKey}/repos/${repoSlug}/pull-requests/${pullRequestId}/tasks`;
 // }
