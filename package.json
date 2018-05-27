@@ -9,6 +9,7 @@
     "repos": "nodemon --watch '*.ts' --exec 'tsc && ts-node' repositories/src/index.ts"
   },
   "devDependencies": {
+    "@types/bluebird": "^3.5.20",
     "@types/node": "^10.1.2",
     "mocha": "^5.2.0",
     "standard": "^11.0.1",
