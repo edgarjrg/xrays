@@ -42,12 +42,3 @@ export class Auth {
     }
   }
 }
-
-// // manual test
-// let a = new Auth()
-// a.logIn()
-//   .tap(console.log)
-//   .then(() => a.logIn())
-//   .tap(console.log)
-//   .then(() => a.logIn())
-//   .tap(console.log)
