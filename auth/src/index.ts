@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 import * as FormData from 'form-data'
 import * as Promise from 'bluebird'
-import { KEY, SECRET, PASS } from '../../creds'
+import { KEY, SECRET } from '../../creds'
 import * as moment from 'moment'
 import { IResponse } from "./interfaces";
 
@@ -11,14 +11,9 @@ function postData(url) {
   return Promise.resolve(fetch(url, {
     body: form,
     headers: {
-      ...form.getHeaders(),
       Authorization: 'Basic ' + Buffer.from(`${KEY}:${SECRET}`, 'ascii').toString('base64')
     },
     method: 'POST',
-    credentials: {
-      user: KEY,
-      pass: PASS
-    }
   }))
     .then(response => response.json())
 }
