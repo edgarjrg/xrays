@@ -1,10 +1,11 @@
 import fetch from 'node-fetch'
 import * as FormData from 'form-data'
 import * as Promise from 'bluebird'
-import {KEY, SECRET, PASS} from '../../creds'
+import { KEY, SECRET, PASS } from '../../creds'
 import * as moment from 'moment'
+import { IResponse } from "./interfaces";
 
-function postData (url) {
+function postData(url) {
   const form = new FormData()
   form.append('grant_type', 'client_credentials')
   return Promise.resolve(fetch(url, {
@@ -24,22 +25,21 @@ function postData (url) {
 
 
 export class Auth {
-  response
-  ttl
+  response?: IResponse
+  ttl?: moment.Moment
 
-  constructor () {
+  constructor() {
   }
 
-  _logIn () {
+  _logIn(): Promise<IResponse> {
     return postData('https://bitbucket.org/site/oauth2/access_token')
       .tap(response => {
         this.response = response
         this.ttl = moment.utc().add(response['expires_in'], 's')
       })
-      .catch(console.error)
   }
 
-  logIn () {
+  logIn(): Promise<IResponse> {
     if (this.response && moment.utc().isBefore(this.ttl)) {
       return Promise.resolve(this.response)
     } else {
