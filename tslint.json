@@ -1,3 +1,6 @@
 {
   "extends": "tslint:recomended",
+  "rules": {
+    "no-unused-variable": false,
+  }
 }

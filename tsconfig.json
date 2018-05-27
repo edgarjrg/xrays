@@ -4,7 +4,9 @@
     "target": "es6",
     "noImplicitAny": false,
     "strict": true,
-    "inlineSourceMap": true
+    "inlineSourceMap": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
   },
   "files": [
     "./node_modules/@types/node/index.d.ts"
