@@ -7,9 +7,9 @@ import {
   AUTHORIZATION_TEMPLATE,
   COMMENTS_IN_PULL_REQUEST_TEMPLATE,
 } from "./apiTemplates";
-import { IRepository } from "./IRepository";
+import { CommentsInPullRequest, IRepository } from './interfaces'
 
-function fetchFromAPI({ Authorization, URL }) {
+function fetchFromAPI({ Authorization, URL }: { Authorization: string, URL: string }): Promise<any> {
   return Promise
     .resolve(
       fetch(URL, {
@@ -27,11 +27,11 @@ export class Repository {
     this.auth = auth;
   }
 
-  public repositories(): Promise<IRepository> {
+  public repositories(): Promise<IRepository[]> {
     return Promise.resolve(repositories);
   }
 
-  public activityInPullRequests(repository) {
+  public activityInPullRequests(repository: IRepository): Promise<any> {
     return this.auth.logIn()
       .then((authentication) =>
         fetchFromAPI({
@@ -40,7 +40,7 @@ export class Repository {
         }));
   }
 
-  public commentsInPullRequest(repository, pullRequestID) {
+  public commentsInPullRequest(repository: IRepository, pullRequestID: number): Promise<CommentsInPullRequest> {
     return this.auth.logIn()
       .then((authentication) =>
         fetchFromAPI({
