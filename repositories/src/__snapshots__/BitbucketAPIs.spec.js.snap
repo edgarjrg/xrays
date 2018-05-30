@@ -1,0 +1,1116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pullRequests should retrieve DECLINED pull requests 1`] = `
+Array [
+  "pagelen",
+  "values",
+  "page",
+  "size",
+]
+`;
+
+exports[`pullRequests should retrieve MERGED pull requests 1`] = `
+Array [
+  "pagelen",
+  "size",
+  "values",
+  "page",
+  "next",
+]
+`;
+
+exports[`pullRequests should retrieve OPEN pull requests 1`] = `
+Array [
+  "pagelen",
+  "values",
+  "page",
+  "size",
+]
+`;
+
+exports[`pullRequests should retrieve SUPERSEDED pull requests 1`] = `
+Array [
+  "pagelen",
+  "values",
+  "page",
+  "size",
+]
+`;
+
+exports[`should retrieve username projects 1`] = `
+Object {
+  "next": "https://api.bitbucket.org/2.0/repositories/atlassian/?page=3",
+  "page": 2,
+  "pagelen": 10,
+  "previous": "https://api.bitbucket.org/2.0/repositories/atlassian/?page=1",
+  "size": 529,
+  "values": Array [
+    Object {
+      "created_on": "2011-07-27T20:19:25.496551+00:00",
+      "description": "A Bitbucket plugin for Jetbrains IDEs -- PyCharm, IDEA, RubyMine, PHPStorm and others.",
+      "fork_policy": "allow_forks",
+      "full_name": "atlassian/jetbrains-bitbucket-connector",
+      "has_issues": true,
+      "has_wiki": false,
+      "is_private": false,
+      "language": "java",
+      "links": Object {
+        "avatar": Object {
+          "href": "https://bitbucket.org/atlassian/jetbrains-bitbucket-connector/avatar/32/",
+        },
+        "branches": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jetbrains-bitbucket-connector/refs/branches",
+        },
+        "clone": Array [
+          Object {
+            "href": "https://edgar_rodriguez_@bitbucket.org/atlassian/jetbrains-bitbucket-connector",
+            "name": "https",
+          },
+          Object {
+            "href": "ssh://hg@bitbucket.org/atlassian/jetbrains-bitbucket-connector",
+            "name": "ssh",
+          },
+        ],
+        "commits": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jetbrains-bitbucket-connector/commits",
+        },
+        "downloads": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jetbrains-bitbucket-connector/downloads",
+        },
+        "forks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jetbrains-bitbucket-connector/forks",
+        },
+        "hooks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jetbrains-bitbucket-connector/hooks",
+        },
+        "html": Object {
+          "href": "https://bitbucket.org/atlassian/jetbrains-bitbucket-connector",
+        },
+        "issues": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jetbrains-bitbucket-connector/issues",
+        },
+        "pullrequests": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jetbrains-bitbucket-connector/pullrequests",
+        },
+        "self": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jetbrains-bitbucket-connector",
+        },
+        "source": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jetbrains-bitbucket-connector/src",
+        },
+        "tags": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jetbrains-bitbucket-connector/refs/tags",
+        },
+        "watchers": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jetbrains-bitbucket-connector/watchers",
+        },
+      },
+      "mainbranch": Object {
+        "name": "default",
+        "type": "named_branch",
+      },
+      "name": "jetbrains-bitbucket-connector",
+      "owner": Object {
+        "display_name": "Atlassian",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/atlassian/avatar/32/",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/atlassian/",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian",
+          },
+        },
+        "type": "team",
+        "username": "atlassian",
+        "uuid": "{02b941e3-cfaa-40f9-9a58-cec53e20bdc3}",
+      },
+      "project": Object {
+        "key": "PROJ",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ/avatar/32",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian/projects/PROJ",
+          },
+        },
+        "name": "Project: Atlassian",
+        "type": "project",
+        "uuid": "{8b56daff-dbc7-4cae-a7a3-1228c526906b}",
+      },
+      "scm": "hg",
+      "size": 731520,
+      "slug": "jetbrains-bitbucket-connector",
+      "type": "repository",
+      "updated_on": "2017-07-20T21:29:07.012758+00:00",
+      "uuid": "{38df4694-d533-4747-913f-e589ee59d08f}",
+      "website": "http://www.jetbrains.com/",
+    },
+    Object {
+      "created_on": "2011-08-22T20:01:11.359064+00:00",
+      "description": "Customizations for themeing the output of doclava for the needs of developer.atlassian.com.",
+      "fork_policy": "allow_forks",
+      "full_name": "atlassian/dac-theme-for-doclava",
+      "has_issues": false,
+      "has_wiki": false,
+      "is_private": false,
+      "language": "html/css",
+      "links": Object {
+        "avatar": Object {
+          "href": "https://bitbucket.org/atlassian/dac-theme-for-doclava/avatar/32/",
+        },
+        "branches": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/dac-theme-for-doclava/refs/branches",
+        },
+        "clone": Array [
+          Object {
+            "href": "https://edgar_rodriguez_@bitbucket.org/atlassian/dac-theme-for-doclava",
+            "name": "https",
+          },
+          Object {
+            "href": "ssh://hg@bitbucket.org/atlassian/dac-theme-for-doclava",
+            "name": "ssh",
+          },
+        ],
+        "commits": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/dac-theme-for-doclava/commits",
+        },
+        "downloads": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/dac-theme-for-doclava/downloads",
+        },
+        "forks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/dac-theme-for-doclava/forks",
+        },
+        "hooks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/dac-theme-for-doclava/hooks",
+        },
+        "html": Object {
+          "href": "https://bitbucket.org/atlassian/dac-theme-for-doclava",
+        },
+        "pullrequests": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/dac-theme-for-doclava/pullrequests",
+        },
+        "self": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/dac-theme-for-doclava",
+        },
+        "source": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/dac-theme-for-doclava/src",
+        },
+        "tags": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/dac-theme-for-doclava/refs/tags",
+        },
+        "watchers": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/dac-theme-for-doclava/watchers",
+        },
+      },
+      "mainbranch": Object {
+        "name": "default",
+        "type": "named_branch",
+      },
+      "name": "DAC theme for doclava",
+      "owner": Object {
+        "display_name": "Atlassian",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/atlassian/avatar/32/",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/atlassian/",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian",
+          },
+        },
+        "type": "team",
+        "username": "atlassian",
+        "uuid": "{02b941e3-cfaa-40f9-9a58-cec53e20bdc3}",
+      },
+      "project": Object {
+        "key": "PROJ",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ/avatar/32",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian/projects/PROJ",
+          },
+        },
+        "name": "Project: Atlassian",
+        "type": "project",
+        "uuid": "{8b56daff-dbc7-4cae-a7a3-1228c526906b}",
+      },
+      "scm": "hg",
+      "size": 1458178,
+      "slug": "dac-theme-for-doclava",
+      "type": "repository",
+      "updated_on": "2015-09-18T08:05:57.987283+00:00",
+      "uuid": "{98f7927f-5bb5-47ad-a953-7661505be652}",
+      "website": "",
+    },
+    Object {
+      "created_on": "2011-08-23T17:58:55.420185+00:00",
+      "description": "Google's doclava doclet with bugfixes and modifications specific to Atlassian.",
+      "fork_policy": "allow_forks",
+      "full_name": "atlassian/doclava-fork-for-atlassian",
+      "has_issues": false,
+      "has_wiki": false,
+      "is_private": false,
+      "language": "java",
+      "links": Object {
+        "avatar": Object {
+          "href": "https://bitbucket.org/atlassian/doclava-fork-for-atlassian/avatar/32/",
+        },
+        "branches": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/doclava-fork-for-atlassian/refs/branches",
+        },
+        "clone": Array [
+          Object {
+            "href": "https://edgar_rodriguez_@bitbucket.org/atlassian/doclava-fork-for-atlassian",
+            "name": "https",
+          },
+          Object {
+            "href": "ssh://hg@bitbucket.org/atlassian/doclava-fork-for-atlassian",
+            "name": "ssh",
+          },
+        ],
+        "commits": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/doclava-fork-for-atlassian/commits",
+        },
+        "downloads": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/doclava-fork-for-atlassian/downloads",
+        },
+        "forks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/doclava-fork-for-atlassian/forks",
+        },
+        "hooks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/doclava-fork-for-atlassian/hooks",
+        },
+        "html": Object {
+          "href": "https://bitbucket.org/atlassian/doclava-fork-for-atlassian",
+        },
+        "pullrequests": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/doclava-fork-for-atlassian/pullrequests",
+        },
+        "self": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/doclava-fork-for-atlassian",
+        },
+        "source": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/doclava-fork-for-atlassian/src",
+        },
+        "tags": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/doclava-fork-for-atlassian/refs/tags",
+        },
+        "watchers": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/doclava-fork-for-atlassian/watchers",
+        },
+      },
+      "mainbranch": Object {
+        "name": "default",
+        "type": "named_branch",
+      },
+      "name": "Doclava fork for Atlassian",
+      "owner": Object {
+        "display_name": "Atlassian",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/atlassian/avatar/32/",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/atlassian/",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian",
+          },
+        },
+        "type": "team",
+        "username": "atlassian",
+        "uuid": "{02b941e3-cfaa-40f9-9a58-cec53e20bdc3}",
+      },
+      "project": Object {
+        "key": "PROJ",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ/avatar/32",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian/projects/PROJ",
+          },
+        },
+        "name": "Project: Atlassian",
+        "type": "project",
+        "uuid": "{8b56daff-dbc7-4cae-a7a3-1228c526906b}",
+      },
+      "scm": "hg",
+      "size": 2807477,
+      "slug": "doclava-fork-for-atlassian",
+      "type": "repository",
+      "updated_on": "2012-09-26T15:11:11.680557+00:00",
+      "uuid": "{bb0f14fd-11ae-40f0-801e-f6175597ad2a}",
+      "website": "",
+    },
+    Object {
+      "created_on": "2011-09-12T02:14:43.606494+00:00",
+      "description": "",
+      "fork_policy": "allow_forks",
+      "full_name": "atlassian/jiraconnect-android",
+      "has_issues": true,
+      "has_wiki": true,
+      "is_private": false,
+      "language": "java",
+      "links": Object {
+        "avatar": Object {
+          "href": "https://bitbucket.org/atlassian/jiraconnect-android/avatar/32/",
+        },
+        "branches": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jiraconnect-android/refs/branches",
+        },
+        "clone": Array [
+          Object {
+            "href": "https://edgar_rodriguez_@bitbucket.org/atlassian/jiraconnect-android",
+            "name": "https",
+          },
+          Object {
+            "href": "ssh://hg@bitbucket.org/atlassian/jiraconnect-android",
+            "name": "ssh",
+          },
+        ],
+        "commits": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jiraconnect-android/commits",
+        },
+        "downloads": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jiraconnect-android/downloads",
+        },
+        "forks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jiraconnect-android/forks",
+        },
+        "hooks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jiraconnect-android/hooks",
+        },
+        "html": Object {
+          "href": "https://bitbucket.org/atlassian/jiraconnect-android",
+        },
+        "issues": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jiraconnect-android/issues",
+        },
+        "pullrequests": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jiraconnect-android/pullrequests",
+        },
+        "self": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jiraconnect-android",
+        },
+        "source": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jiraconnect-android/src",
+        },
+        "tags": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jiraconnect-android/refs/tags",
+        },
+        "watchers": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/jiraconnect-android/watchers",
+        },
+      },
+      "mainbranch": Object {
+        "name": "default",
+        "type": "named_branch",
+      },
+      "name": "jiraconnect-android",
+      "owner": Object {
+        "display_name": "Atlassian",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/atlassian/avatar/32/",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/atlassian/",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian",
+          },
+        },
+        "type": "team",
+        "username": "atlassian",
+        "uuid": "{02b941e3-cfaa-40f9-9a58-cec53e20bdc3}",
+      },
+      "project": Object {
+        "key": "PROJ",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ/avatar/32",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian/projects/PROJ",
+          },
+        },
+        "name": "Project: Atlassian",
+        "type": "project",
+        "uuid": "{8b56daff-dbc7-4cae-a7a3-1228c526906b}",
+      },
+      "scm": "hg",
+      "size": 6050457,
+      "slug": "jiraconnect-android",
+      "type": "repository",
+      "updated_on": "2015-03-31T19:59:50.580788+00:00",
+      "uuid": "{1675595e-f381-45f5-8c97-7bdbe938556c}",
+      "website": "",
+    },
+    Object {
+      "created_on": "2011-09-19T05:02:26.134456+00:00",
+      "description": "",
+      "fork_policy": "allow_forks",
+      "full_name": "atlassian/old-hg-atlassian-http",
+      "has_issues": true,
+      "has_wiki": true,
+      "is_private": false,
+      "language": "",
+      "links": Object {
+        "avatar": Object {
+          "href": "https://bitbucket.org/atlassian/old-hg-atlassian-http/avatar/32/",
+        },
+        "branches": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/old-hg-atlassian-http/refs/branches",
+        },
+        "clone": Array [
+          Object {
+            "href": "https://edgar_rodriguez_@bitbucket.org/atlassian/old-hg-atlassian-http",
+            "name": "https",
+          },
+          Object {
+            "href": "ssh://hg@bitbucket.org/atlassian/old-hg-atlassian-http",
+            "name": "ssh",
+          },
+        ],
+        "commits": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/old-hg-atlassian-http/commits",
+        },
+        "downloads": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/old-hg-atlassian-http/downloads",
+        },
+        "forks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/old-hg-atlassian-http/forks",
+        },
+        "hooks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/old-hg-atlassian-http/hooks",
+        },
+        "html": Object {
+          "href": "https://bitbucket.org/atlassian/old-hg-atlassian-http",
+        },
+        "issues": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/old-hg-atlassian-http/issues",
+        },
+        "pullrequests": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/old-hg-atlassian-http/pullrequests",
+        },
+        "self": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/old-hg-atlassian-http",
+        },
+        "source": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/old-hg-atlassian-http/src",
+        },
+        "tags": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/old-hg-atlassian-http/refs/tags",
+        },
+        "watchers": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/old-hg-atlassian-http/watchers",
+        },
+      },
+      "mainbranch": Object {
+        "name": "default",
+        "type": "named_branch",
+      },
+      "name": "old-hg-atlassian-http",
+      "owner": Object {
+        "display_name": "Atlassian",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/atlassian/avatar/32/",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/atlassian/",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian",
+          },
+        },
+        "type": "team",
+        "username": "atlassian",
+        "uuid": "{02b941e3-cfaa-40f9-9a58-cec53e20bdc3}",
+      },
+      "parent": Object {
+        "full_name": "jxie/atlassian-http",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/jxie/atlassian-http/avatar/32/",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/jxie/atlassian-http",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/repositories/jxie/atlassian-http",
+          },
+        },
+        "name": "atlassian-http",
+        "type": "repository",
+        "uuid": "{ed765194-853b-4dc9-b501-5c6a4e6bc329}",
+      },
+      "project": Object {
+        "key": "PROJ",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ/avatar/32",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian/projects/PROJ",
+          },
+        },
+        "name": "Project: Atlassian",
+        "type": "project",
+        "uuid": "{8b56daff-dbc7-4cae-a7a3-1228c526906b}",
+      },
+      "scm": "hg",
+      "size": 361823,
+      "slug": "old-hg-atlassian-http",
+      "type": "repository",
+      "updated_on": "2017-07-18T03:23:41.131780+00:00",
+      "uuid": "{9f86d15d-713f-4d28-bf3c-0d1be079d86f}",
+      "website": "",
+    },
+    Object {
+      "created_on": "2011-10-13T23:34:16.934073+00:00",
+      "description": "",
+      "fork_policy": "allow_forks",
+      "full_name": "atlassian/application-links",
+      "has_issues": false,
+      "has_wiki": false,
+      "is_private": false,
+      "language": "",
+      "links": Object {
+        "avatar": Object {
+          "href": "https://bitbucket.org/atlassian/application-links/avatar/32/",
+        },
+        "branches": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/application-links/refs/branches",
+        },
+        "clone": Array [
+          Object {
+            "href": "https://edgar_rodriguez_@bitbucket.org/atlassian/application-links.git",
+            "name": "https",
+          },
+          Object {
+            "href": "git@bitbucket.org:atlassian/application-links.git",
+            "name": "ssh",
+          },
+        ],
+        "commits": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/application-links/commits",
+        },
+        "downloads": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/application-links/downloads",
+        },
+        "forks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/application-links/forks",
+        },
+        "hooks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/application-links/hooks",
+        },
+        "html": Object {
+          "href": "https://bitbucket.org/atlassian/application-links",
+        },
+        "pullrequests": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/application-links/pullrequests",
+        },
+        "self": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/application-links",
+        },
+        "source": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/application-links/src",
+        },
+        "tags": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/application-links/refs/tags",
+        },
+        "watchers": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/application-links/watchers",
+        },
+      },
+      "mainbranch": Object {
+        "name": "master",
+        "type": "branch",
+      },
+      "name": "application-links",
+      "owner": Object {
+        "display_name": "Atlassian",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/atlassian/avatar/32/",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/atlassian/",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian",
+          },
+        },
+        "type": "team",
+        "username": "atlassian",
+        "uuid": "{02b941e3-cfaa-40f9-9a58-cec53e20bdc3}",
+      },
+      "project": Object {
+        "key": "PROJ",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ/avatar/32",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian/projects/PROJ",
+          },
+        },
+        "name": "Project: Atlassian",
+        "type": "project",
+        "uuid": "{8b56daff-dbc7-4cae-a7a3-1228c526906b}",
+      },
+      "scm": "git",
+      "size": 111685053,
+      "slug": "application-links",
+      "type": "repository",
+      "updated_on": "2018-04-23T02:04:30.114944+00:00",
+      "uuid": "{ac57a2d0-c03f-498f-966d-ac99d17a2d59}",
+      "website": "",
+    },
+    Object {
+      "created_on": "2011-10-13T23:35:11.622182+00:00",
+      "description": "",
+      "fork_policy": "allow_forks",
+      "full_name": "atlassian/atlassian-event",
+      "has_issues": false,
+      "has_wiki": false,
+      "is_private": false,
+      "language": "",
+      "links": Object {
+        "avatar": Object {
+          "href": "https://bitbucket.org/atlassian/atlassian-event/avatar/32/",
+        },
+        "branches": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-event/refs/branches",
+        },
+        "clone": Array [
+          Object {
+            "href": "https://edgar_rodriguez_@bitbucket.org/atlassian/atlassian-event.git",
+            "name": "https",
+          },
+          Object {
+            "href": "git@bitbucket.org:atlassian/atlassian-event.git",
+            "name": "ssh",
+          },
+        ],
+        "commits": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-event/commits",
+        },
+        "downloads": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-event/downloads",
+        },
+        "forks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-event/forks",
+        },
+        "hooks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-event/hooks",
+        },
+        "html": Object {
+          "href": "https://bitbucket.org/atlassian/atlassian-event",
+        },
+        "pullrequests": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-event/pullrequests",
+        },
+        "self": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-event",
+        },
+        "source": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-event/src",
+        },
+        "tags": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-event/refs/tags",
+        },
+        "watchers": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-event/watchers",
+        },
+      },
+      "mainbranch": Object {
+        "name": "master",
+        "type": "branch",
+      },
+      "name": "atlassian-event",
+      "owner": Object {
+        "display_name": "Atlassian",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/atlassian/avatar/32/",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/atlassian/",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian",
+          },
+        },
+        "type": "team",
+        "username": "atlassian",
+        "uuid": "{02b941e3-cfaa-40f9-9a58-cec53e20bdc3}",
+      },
+      "project": Object {
+        "key": "PROJ",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ/avatar/32",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian/projects/PROJ",
+          },
+        },
+        "name": "Project: Atlassian",
+        "type": "project",
+        "uuid": "{8b56daff-dbc7-4cae-a7a3-1228c526906b}",
+      },
+      "scm": "git",
+      "size": 2696470,
+      "slug": "atlassian-event",
+      "type": "repository",
+      "updated_on": "2018-05-09T09:12:33.790286+00:00",
+      "uuid": "{3d76c1e2-d4bb-4baf-a957-ad7ba71f88c2}",
+      "website": "",
+    },
+    Object {
+      "created_on": "2011-10-13T23:36:37.264627+00:00",
+      "description": "This is a read-only mirror of https://stash.atlassian.com/projects/SJP/repos/atlassian-oauth",
+      "fork_policy": "allow_forks",
+      "full_name": "atlassian/atlassian-oauth",
+      "has_issues": false,
+      "has_wiki": false,
+      "is_private": false,
+      "language": "",
+      "links": Object {
+        "avatar": Object {
+          "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/",
+        },
+        "branches": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/refs/branches",
+        },
+        "clone": Array [
+          Object {
+            "href": "https://edgar_rodriguez_@bitbucket.org/atlassian/atlassian-oauth.git",
+            "name": "https",
+          },
+          Object {
+            "href": "git@bitbucket.org:atlassian/atlassian-oauth.git",
+            "name": "ssh",
+          },
+        ],
+        "commits": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commits",
+        },
+        "downloads": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/downloads",
+        },
+        "forks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/forks",
+        },
+        "hooks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/hooks",
+        },
+        "html": Object {
+          "href": "https://bitbucket.org/atlassian/atlassian-oauth",
+        },
+        "pullrequests": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests",
+        },
+        "self": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth",
+        },
+        "source": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/src",
+        },
+        "tags": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/refs/tags",
+        },
+        "watchers": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/watchers",
+        },
+      },
+      "mainbranch": Object {
+        "name": "master",
+        "type": "branch",
+      },
+      "name": "atlassian-oauth",
+      "owner": Object {
+        "display_name": "Atlassian",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/atlassian/avatar/32/",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/atlassian/",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian",
+          },
+        },
+        "type": "team",
+        "username": "atlassian",
+        "uuid": "{02b941e3-cfaa-40f9-9a58-cec53e20bdc3}",
+      },
+      "project": Object {
+        "key": "PROJ",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ/avatar/32",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian/projects/PROJ",
+          },
+        },
+        "name": "Project: Atlassian",
+        "type": "project",
+        "uuid": "{8b56daff-dbc7-4cae-a7a3-1228c526906b}",
+      },
+      "scm": "git",
+      "size": 15285597,
+      "slug": "atlassian-oauth",
+      "type": "repository",
+      "updated_on": "2017-10-12T07:37:18.559404+00:00",
+      "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}",
+      "website": "",
+    },
+    Object {
+      "created_on": "2011-10-13T23:37:59.955067+00:00",
+      "description": "",
+      "fork_policy": "allow_forks",
+      "full_name": "atlassian/atlassian-plugins",
+      "has_issues": false,
+      "has_wiki": false,
+      "is_private": false,
+      "language": "",
+      "links": Object {
+        "avatar": Object {
+          "href": "https://bitbucket.org/atlassian/atlassian-plugins/avatar/32/",
+        },
+        "branches": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-plugins/refs/branches",
+        },
+        "clone": Array [
+          Object {
+            "href": "https://edgar_rodriguez_@bitbucket.org/atlassian/atlassian-plugins.git",
+            "name": "https",
+          },
+          Object {
+            "href": "git@bitbucket.org:atlassian/atlassian-plugins.git",
+            "name": "ssh",
+          },
+        ],
+        "commits": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-plugins/commits",
+        },
+        "downloads": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-plugins/downloads",
+        },
+        "forks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-plugins/forks",
+        },
+        "hooks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-plugins/hooks",
+        },
+        "html": Object {
+          "href": "https://bitbucket.org/atlassian/atlassian-plugins",
+        },
+        "pullrequests": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-plugins/pullrequests",
+        },
+        "self": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-plugins",
+        },
+        "source": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-plugins/src",
+        },
+        "tags": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-plugins/refs/tags",
+        },
+        "watchers": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-plugins/watchers",
+        },
+      },
+      "mainbranch": Object {
+        "name": "master",
+        "type": "branch",
+      },
+      "name": "atlassian-plugins",
+      "owner": Object {
+        "display_name": "Atlassian",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/atlassian/avatar/32/",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/atlassian/",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian",
+          },
+        },
+        "type": "team",
+        "username": "atlassian",
+        "uuid": "{02b941e3-cfaa-40f9-9a58-cec53e20bdc3}",
+      },
+      "project": Object {
+        "key": "PROJ",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ/avatar/32",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian/projects/PROJ",
+          },
+        },
+        "name": "Project: Atlassian",
+        "type": "project",
+        "uuid": "{8b56daff-dbc7-4cae-a7a3-1228c526906b}",
+      },
+      "scm": "git",
+      "size": 55344812,
+      "slug": "atlassian-plugins",
+      "type": "repository",
+      "updated_on": "2018-05-30T00:42:08.681501+00:00",
+      "uuid": "{6f4d4483-c0e8-4894-8d54-b189ae1e5604}",
+      "website": "",
+    },
+    Object {
+      "created_on": "2011-10-13T23:38:24.977253+00:00",
+      "description": "",
+      "fork_policy": "allow_forks",
+      "full_name": "atlassian/atlassian-refapp",
+      "has_issues": false,
+      "has_wiki": false,
+      "is_private": false,
+      "language": "",
+      "links": Object {
+        "avatar": Object {
+          "href": "https://bitbucket.org/atlassian/atlassian-refapp/avatar/32/",
+        },
+        "branches": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-refapp/refs/branches",
+        },
+        "clone": Array [
+          Object {
+            "href": "https://edgar_rodriguez_@bitbucket.org/atlassian/atlassian-refapp.git",
+            "name": "https",
+          },
+          Object {
+            "href": "git@bitbucket.org:atlassian/atlassian-refapp.git",
+            "name": "ssh",
+          },
+        ],
+        "commits": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-refapp/commits",
+        },
+        "downloads": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-refapp/downloads",
+        },
+        "forks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-refapp/forks",
+        },
+        "hooks": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-refapp/hooks",
+        },
+        "html": Object {
+          "href": "https://bitbucket.org/atlassian/atlassian-refapp",
+        },
+        "pullrequests": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-refapp/pullrequests",
+        },
+        "self": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-refapp",
+        },
+        "source": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-refapp/src",
+        },
+        "tags": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-refapp/refs/tags",
+        },
+        "watchers": Object {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-refapp/watchers",
+        },
+      },
+      "mainbranch": Object {
+        "name": "master",
+        "type": "branch",
+      },
+      "name": "atlassian-refapp",
+      "owner": Object {
+        "display_name": "Atlassian",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/atlassian/avatar/32/",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/atlassian/",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian",
+          },
+        },
+        "type": "team",
+        "username": "atlassian",
+        "uuid": "{02b941e3-cfaa-40f9-9a58-cec53e20bdc3}",
+      },
+      "project": Object {
+        "key": "PROJ",
+        "links": Object {
+          "avatar": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ/avatar/32",
+          },
+          "html": Object {
+            "href": "https://bitbucket.org/account/user/atlassian/projects/PROJ",
+          },
+          "self": Object {
+            "href": "https://api.bitbucket.org/2.0/teams/atlassian/projects/PROJ",
+          },
+        },
+        "name": "Project: Atlassian",
+        "type": "project",
+        "uuid": "{8b56daff-dbc7-4cae-a7a3-1228c526906b}",
+      },
+      "scm": "git",
+      "size": 35803594,
+      "slug": "atlassian-refapp",
+      "type": "repository",
+      "updated_on": "2018-05-18T18:42:52.082811+00:00",
+      "uuid": "{a6b287c1-da26-4e03-8fa5-bdbfbdb33af0}",
+      "website": "",
+    },
+  ],
+}
+`;

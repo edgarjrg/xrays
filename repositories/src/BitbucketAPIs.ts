@@ -7,8 +7,11 @@ import {
   ACTIVITY_IN_PULL_REQUEST_TEMPLATE,
   AUTHORIZATION_TEMPLATE,
   COMMENTS_IN_PULL_REQUEST_TEMPLATE,
+  PULL_REQUESTS_TEMPLATE,
+  REPOSITORIES_TEMPLATE
 } from "./apiTemplates";
 import { CommentsInPullRequest, IRepository } from './interfaces'
+import { PULL_REQUEST_STATE } from "./constants";
 
 function fetchFromAPI<T>({ Authorization, URL }: { Authorization: string, URL: string }): Bluebird<T> {
   return Bluebird
@@ -28,8 +31,17 @@ export class Repository {
     this.auth = auth;
   }
 
-  public repositories(): Promise<IRepository[]> {
-    return Promise.resolve(repositories);
+  public repositories(): Bluebird<IRepository[]> {
+    return Bluebird.resolve(repositories);
+  }
+
+  public userRepositories(repository: IRepository): Bluebird<any> {
+    return this.auth.logIn()
+      .then((authentication) =>
+        fetchFromAPI({
+          Authorization: AUTHORIZATION_TEMPLATE(authentication.access_token),
+          URL: REPOSITORIES_TEMPLATE(repository),
+        }));
   }
 
   public activityInPullRequests(repository: IRepository): Bluebird<any> {
@@ -67,18 +79,14 @@ export class Repository {
           URL: ACTIVITY_IN_PULL_REQUEST_TEMPLATE(repository, pullRequestID),
         }));
   }
+
+  public pullRequests(repository: IRepository, state?: PULL_REQUEST_STATE, page?: number): Bluebird<any> {
+    return this.auth.logIn()
+      .then((authentication) =>
+        fetchFromAPI<any>({
+          Authorization: AUTHORIZATION_TEMPLATE(authentication.access_token),
+          URL: PULL_REQUESTS_TEMPLATE(repository, state, page),
+        }));
+
+  }
 }
-
-// // manual tests
-// const r = new Repository(new Auth());
-
-// r.repositories()
-//   .tap(console.log)
-//   // .then((repositories) => r.commentsInPullRequest(repositories[0], 330))
-//   // .then((repositories) => r.activityInPullRequests(repositories[0]))
-//   // .then((repositories) => r.activityInPullRequest(repositories[0], 360))
-//   // .then((repositories) => r.activityInPullRequest(repositories[1], 14))
-//   // .then((repositories) => r.retrieveComment("https://api.bitbucket.org/2.0/repositories/mxitechnologies/le-web/pullrequests/361/comments/65373531"))
-//   .then(JSON.stringify)
-//   .tap(console.log)
-//   .catch(console.error);

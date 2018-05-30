@@ -1,5 +1,5 @@
 import { Fetcher } from './fetcher'
-import { Repository } from "./index";
+import { Repository } from "./BitbucketAPIs";
 import { Auth } from "../../auth/src/index";
 import * as Bluebird from 'bluebird';
 
