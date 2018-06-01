@@ -1,0 +1,1532 @@
+[
+  {
+    "description": "",
+    "links": {
+      "decline": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/decline"
+      },
+      "commits": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/commits"
+      },
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35"
+      },
+      "comments": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/comments"
+      },
+      "merge": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/merge"
+      },
+      "html": {
+        "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/35"
+      },
+      "activity": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/activity"
+      },
+      "diff": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/diff"
+      },
+      "approve": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/approve"
+      },
+      "statuses": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/statuses"
+      }
+    },
+    "title": "OAUTH-338 NPE fix",
+    "close_source_branch": false,
+    "merge_commit": {
+      "hash": "75ee84fa3ed5",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/75ee84fa3ed5"
+        }
+      }
+    },
+    "destination": {
+      "commit": {
+        "hash": "eb4837209c7e",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/eb4837209c7e"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "atlassian-oauth-2.0.x"
+      }
+    },
+    "state": "MERGED",
+    "closed_by": {
+      "username": "szczepanikp",
+      "display_name": "Patryk Szczepanik",
+      "type": "user",
+      "uuid": "{d48045e9-f9c0-40bf-af17-a0493783ffb4}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/szczepanikp"
+        },
+        "html": {
+          "href": "https://bitbucket.org/szczepanikp/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/szczepanikp/avatar/32/"
+        }
+      }
+    },
+    "summary": {
+      "raw": "",
+      "markup": "markdown",
+      "html": "",
+      "type": "rendered"
+    },
+    "source": {
+      "commit": {
+        "hash": "661e2112a237",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/661e2112a237"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "issue/OAUTH-338-npe-when-consumer-description-is-missing"
+      }
+    },
+    "comment_count": 3,
+    "author": {
+      "username": "szczepanikp",
+      "display_name": "Patryk Szczepanik",
+      "type": "user",
+      "uuid": "{d48045e9-f9c0-40bf-af17-a0493783ffb4}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/szczepanikp"
+        },
+        "html": {
+          "href": "https://bitbucket.org/szczepanikp/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/szczepanikp/avatar/32/"
+        }
+      }
+    },
+    "created_on": "2017-10-06T13:34:29.759667+00:00",
+    "reason": "",
+    "updated_on": "2017-10-10T09:45:08.173419+00:00",
+    "type": "pullrequest",
+    "id": 35,
+    "task_count": 0
+  },
+  {
+    "description": "",
+    "links": {
+      "decline": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34/decline"
+      },
+      "commits": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34/commits"
+      },
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34"
+      },
+      "comments": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34/comments"
+      },
+      "merge": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34/merge"
+      },
+      "html": {
+        "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/34"
+      },
+      "activity": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34/activity"
+      },
+      "diff": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34/diff"
+      },
+      "approve": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34/approve"
+      },
+      "statuses": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34/statuses"
+      }
+    },
+    "title": "OAUTH-181: bump net.oauth version",
+    "close_source_branch": true,
+    "merge_commit": {
+      "hash": "d9a808e52bac",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/d9a808e52bac"
+        }
+      }
+    },
+    "destination": {
+      "commit": {
+        "hash": "8915a1b8756c",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/8915a1b8756c"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "atlassian-oauth-2.0.x"
+      }
+    },
+    "state": "MERGED",
+    "closed_by": {
+      "username": "ppetrowski",
+      "display_name": "Patryk Petrowski",
+      "type": "user",
+      "uuid": "{4d37aca5-6370-453b-8561-85c1beacaf2c}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/ppetrowski"
+        },
+        "html": {
+          "href": "https://bitbucket.org/ppetrowski/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/ppetrowski/avatar/32/"
+        }
+      }
+    },
+    "summary": {
+      "raw": "",
+      "markup": "markdown",
+      "html": "",
+      "type": "rendered"
+    },
+    "source": {
+      "commit": {
+        "hash": "0ce1af4cc55a",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/0ce1af4cc55a"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "issue/OAUTH-181-upgrade-oauth-lib-to-fix-timing-attack"
+      }
+    },
+    "comment_count": 8,
+    "author": {
+      "username": "ppetrowski",
+      "display_name": "Patryk Petrowski",
+      "type": "user",
+      "uuid": "{4d37aca5-6370-453b-8561-85c1beacaf2c}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/ppetrowski"
+        },
+        "html": {
+          "href": "https://bitbucket.org/ppetrowski/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/ppetrowski/avatar/32/"
+        }
+      }
+    },
+    "created_on": "2017-02-27T15:31:22.486518+00:00",
+    "reason": "",
+    "updated_on": "2017-03-13T13:40:46.876015+00:00",
+    "type": "pullrequest",
+    "id": 34,
+    "task_count": 0
+  },
+  {
+    "description": "",
+    "links": {
+      "decline": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/33/decline"
+      },
+      "commits": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/33/commits"
+      },
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/33"
+      },
+      "comments": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/33/comments"
+      },
+      "merge": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/33/merge"
+      },
+      "html": {
+        "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/33"
+      },
+      "activity": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/33/activity"
+      },
+      "diff": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/33/diff"
+      },
+      "approve": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/33/approve"
+      },
+      "statuses": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/33/statuses"
+      }
+    },
+    "title": "PLATDEV-50 post release cleanup",
+    "close_source_branch": true,
+    "merge_commit": {
+      "hash": "8417a7ee6e39",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/8417a7ee6e39"
+        }
+      }
+    },
+    "destination": {
+      "commit": {
+        "hash": "e4f557b60992",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/e4f557b60992"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "master"
+      }
+    },
+    "state": "MERGED",
+    "closed_by": {
+      "username": "evasilyeva",
+      "display_name": "Elena Vasilyeva",
+      "type": "user",
+      "uuid": "{45bee594-4ad9-4f96-818e-6b522d156412}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/evasilyeva"
+        },
+        "html": {
+          "href": "https://bitbucket.org/evasilyeva/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/evasilyeva/avatar/32/"
+        }
+      }
+    },
+    "summary": {
+      "raw": "",
+      "markup": "markdown",
+      "html": "",
+      "type": "rendered"
+    },
+    "source": {
+      "commit": {
+        "hash": "94b9242638d2",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/94b9242638d2"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "issue/PLATDEV-50-post-release-cleanup"
+      }
+    },
+    "comment_count": 0,
+    "author": {
+      "username": "evasilyeva",
+      "display_name": "Elena Vasilyeva",
+      "type": "user",
+      "uuid": "{45bee594-4ad9-4f96-818e-6b522d156412}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/evasilyeva"
+        },
+        "html": {
+          "href": "https://bitbucket.org/evasilyeva/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/evasilyeva/avatar/32/"
+        }
+      }
+    },
+    "created_on": "2016-03-23T11:00:29.107424+00:00",
+    "reason": "",
+    "updated_on": "2016-03-24T05:15:03.272179+00:00",
+    "type": "pullrequest",
+    "id": 33,
+    "task_count": 0
+  },
+  {
+    "description": "",
+    "links": {
+      "decline": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/32/decline"
+      },
+      "commits": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/32/commits"
+      },
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/32"
+      },
+      "comments": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/32/comments"
+      },
+      "merge": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/32/merge"
+      },
+      "html": {
+        "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/32"
+      },
+      "activity": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/32/activity"
+      },
+      "diff": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/32/diff"
+      },
+      "approve": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/32/approve"
+      },
+      "statuses": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/32/statuses"
+      }
+    },
+    "title": "PLATDEV-50 post release banhammer",
+    "close_source_branch": true,
+    "merge_commit": {
+      "hash": "e4f557b60992",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/e4f557b60992"
+        }
+      }
+    },
+    "destination": {
+      "commit": {
+        "hash": "b2efec5036d0",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/b2efec5036d0"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "master"
+      }
+    },
+    "state": "MERGED",
+    "closed_by": {
+      "username": "evasilyeva",
+      "display_name": "Elena Vasilyeva",
+      "type": "user",
+      "uuid": "{45bee594-4ad9-4f96-818e-6b522d156412}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/evasilyeva"
+        },
+        "html": {
+          "href": "https://bitbucket.org/evasilyeva/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/evasilyeva/avatar/32/"
+        }
+      }
+    },
+    "summary": {
+      "raw": "",
+      "markup": "markdown",
+      "html": "",
+      "type": "rendered"
+    },
+    "source": {
+      "commit": {
+        "hash": "7f7f6ed2ac55",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/7f7f6ed2ac55"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "issue/PLATDEV-50-post-release-platform-4-version"
+      }
+    },
+    "comment_count": 0,
+    "author": {
+      "username": "evasilyeva",
+      "display_name": "Elena Vasilyeva",
+      "type": "user",
+      "uuid": "{45bee594-4ad9-4f96-818e-6b522d156412}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/evasilyeva"
+        },
+        "html": {
+          "href": "https://bitbucket.org/evasilyeva/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/evasilyeva/avatar/32/"
+        }
+      }
+    },
+    "created_on": "2016-03-17T04:52:51.579276+00:00",
+    "reason": "",
+    "updated_on": "2016-03-17T06:31:42.985292+00:00",
+    "type": "pullrequest",
+    "id": 32,
+    "task_count": 0
+  },
+  {
+    "description": "Release dance. Will switch the banhammer back on after the release.",
+    "links": {
+      "decline": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/31/decline"
+      },
+      "commits": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/31/commits"
+      },
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/31"
+      },
+      "comments": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/31/comments"
+      },
+      "merge": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/31/merge"
+      },
+      "html": {
+        "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/31"
+      },
+      "activity": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/31/activity"
+      },
+      "diff": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/31/diff"
+      },
+      "approve": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/31/approve"
+      },
+      "statuses": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/31/statuses"
+      }
+    },
+    "title": "PLATDEV-50 preparing to release a new version",
+    "close_source_branch": true,
+    "merge_commit": {
+      "hash": "c4585abfe256",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/c4585abfe256"
+        }
+      }
+    },
+    "destination": {
+      "commit": {
+        "hash": "e2282b79b059",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/e2282b79b059"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "master"
+      }
+    },
+    "state": "MERGED",
+    "closed_by": {
+      "username": "evasilyeva",
+      "display_name": "Elena Vasilyeva",
+      "type": "user",
+      "uuid": "{45bee594-4ad9-4f96-818e-6b522d156412}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/evasilyeva"
+        },
+        "html": {
+          "href": "https://bitbucket.org/evasilyeva/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/evasilyeva/avatar/32/"
+        }
+      }
+    },
+    "summary": {
+      "raw": "Release dance. Will switch the banhammer back on after the release.",
+      "markup": "markdown",
+      "html": "<p>Release dance. Will switch the banhammer back on after the release.</p>",
+      "type": "rendered"
+    },
+    "source": {
+      "commit": {
+        "hash": "aac62e82fa3d",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/aac62e82fa3d"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "issue/PLATDEV-50-release-platform-4-version"
+      }
+    },
+    "comment_count": 1,
+    "author": {
+      "username": "evasilyeva",
+      "display_name": "Elena Vasilyeva",
+      "type": "user",
+      "uuid": "{45bee594-4ad9-4f96-818e-6b522d156412}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/evasilyeva"
+        },
+        "html": {
+          "href": "https://bitbucket.org/evasilyeva/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/evasilyeva/avatar/32/"
+        }
+      }
+    },
+    "created_on": "2016-03-17T03:30:14.489430+00:00",
+    "reason": "",
+    "updated_on": "2016-03-17T04:16:21.924981+00:00",
+    "type": "pullrequest",
+    "id": 31,
+    "task_count": 0
+  },
+  {
+    "description": "Preparing torelease final Platform 4 version of OAuth - cleaning up ATR usage to be not dependent on velocity version",
+    "links": {
+      "decline": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/30/decline"
+      },
+      "commits": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/30/commits"
+      },
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/30"
+      },
+      "comments": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/30/comments"
+      },
+      "merge": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/30/merge"
+      },
+      "html": {
+        "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/30"
+      },
+      "activity": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/30/activity"
+      },
+      "diff": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/30/diff"
+      },
+      "approve": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/30/approve"
+      },
+      "statuses": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/30/statuses"
+      }
+    },
+    "title": "OAUTHDEV-19 switching to templaterenderer non-opinionated API",
+    "close_source_branch": true,
+    "merge_commit": {
+      "hash": "e2282b79b059",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/e2282b79b059"
+        }
+      }
+    },
+    "destination": {
+      "commit": {
+        "hash": "dcdcaa86487d",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/dcdcaa86487d"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "master"
+      }
+    },
+    "state": "MERGED",
+    "closed_by": {
+      "username": "evasilyeva",
+      "display_name": "Elena Vasilyeva",
+      "type": "user",
+      "uuid": "{45bee594-4ad9-4f96-818e-6b522d156412}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/evasilyeva"
+        },
+        "html": {
+          "href": "https://bitbucket.org/evasilyeva/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/evasilyeva/avatar/32/"
+        }
+      }
+    },
+    "summary": {
+      "raw": "Preparing to release final Platform 4 version of OAuth - cleaning up ATR usage to be not dependent on velocity version",
+      "markup": "markdown",
+      "html": "<p>Preparing to release final Platform 4 version of OAuth - cleaning up ATR usage to be not dependent on velocity version</p>",
+      "type": "rendered"
+    },
+    "source": {
+      "commit": {
+        "hash": "dcd90844a1cd",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/dcd90844a1cd"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "issue/OAUTHDEV-19-APIfy-templaterenderer-usage"
+      }
+    },
+    "comment_count": 1,
+    "author": {
+      "username": "evasilyeva",
+      "display_name": "Elena Vasilyeva",
+      "type": "user",
+      "uuid": "{45bee594-4ad9-4f96-818e-6b522d156412}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/evasilyeva"
+        },
+        "html": {
+          "href": "https://bitbucket.org/evasilyeva/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/evasilyeva/avatar/32/"
+        }
+      }
+    },
+    "created_on": "2016-03-17T03:26:44.597351+00:00",
+    "reason": "",
+    "updated_on": "2016-03-17T04:12:43.951461+00:00",
+    "type": "pullrequest",
+    "id": 30,
+    "task_count": 0
+  },
+  {
+    "description": "I need a milestone release of oauth for refapp to work with ATR 3.0.0",
+    "links": {
+      "decline": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/29/decline"
+      },
+      "commits": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/29/commits"
+      },
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/29"
+      },
+      "comments": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/29/comments"
+      },
+      "merge": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/29/merge"
+      },
+      "html": {
+        "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/29"
+      },
+      "activity": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/29/activity"
+      },
+      "diff": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/29/diff"
+      },
+      "approve": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/29/approve"
+      },
+      "statuses": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/29/statuses"
+      }
+    },
+    "title": "Updating oauth to use velocity 1.7 and ATR 3.0.0 and VHS 2.1.0",
+    "close_source_branch": true,
+    "merge_commit": {
+      "hash": "273e0cdb47ed",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/273e0cdb47ed"
+        }
+      }
+    },
+    "destination": {
+      "commit": {
+        "hash": "ec56655ae2f2",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/ec56655ae2f2"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "master"
+      }
+    },
+    "state": "MERGED",
+    "closed_by": {
+      "username": "evasilyeva",
+      "display_name": "Elena Vasilyeva",
+      "type": "user",
+      "uuid": "{45bee594-4ad9-4f96-818e-6b522d156412}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/evasilyeva"
+        },
+        "html": {
+          "href": "https://bitbucket.org/evasilyeva/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/evasilyeva/avatar/32/"
+        }
+      }
+    },
+    "summary": {
+      "raw": "I need a milestone release of oauth for refapp to work with ATR 3.0.0",
+      "markup": "markdown",
+      "html": "<p>I need a milestone release of oauth for refapp to work with ATR 3.0.0</p>",
+      "type": "rendered"
+    },
+    "source": {
+      "commit": {
+        "hash": "0cdb66128933",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/0cdb66128933"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "issue/ATR-98-update-velocity-to-17"
+      }
+    },
+    "comment_count": 3,
+    "author": {
+      "username": "evasilyeva",
+      "display_name": "Elena Vasilyeva",
+      "type": "user",
+      "uuid": "{45bee594-4ad9-4f96-818e-6b522d156412}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/evasilyeva"
+        },
+        "html": {
+          "href": "https://bitbucket.org/evasilyeva/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/evasilyeva/avatar/32/"
+        }
+      }
+    },
+    "created_on": "2015-11-03T00:34:57.987203+00:00",
+    "reason": "",
+    "updated_on": "2015-11-04T23:35:04.482209+00:00",
+    "type": "pullrequest",
+    "id": 29,
+    "task_count": 0
+  },
+  {
+    "description": "* TRUST-57: Prevented xframe clickjacking by setting response header x-frame-options to sameorigin\r\n\r\n* TRUST-57: Removed unused import\r\n\r\n* TRUST-57: Added mvnvm.properties",
+    "links": {
+      "decline": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/28/decline"
+      },
+      "commits": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/28/commits"
+      },
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/28"
+      },
+      "comments": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/28/comments"
+      },
+      "merge": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/28/merge"
+      },
+      "html": {
+        "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/28"
+      },
+      "activity": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/28/activity"
+      },
+      "diff": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/28/diff"
+      },
+      "approve": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/28/approve"
+      },
+      "statuses": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/28/statuses"
+      }
+    },
+    "title": "Issue 1.2/trust 57",
+    "close_source_branch": true,
+    "merge_commit": {
+      "hash": "72301e226353",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/72301e226353"
+        }
+      }
+    },
+    "destination": {
+      "commit": {
+        "hash": "5311c1757f16",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/5311c1757f16"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "atlassian-oauth-1.2.x"
+      }
+    },
+    "state": "MERGED",
+    "closed_by": {
+      "username": "huy_huu_nguyen",
+      "display_name": "Huy Huu Nguyen",
+      "type": "user",
+      "uuid": "{9ef67c2a-fd32-4963-a4a6-7451a91f5648}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/huy_huu_nguyen"
+        },
+        "html": {
+          "href": "https://bitbucket.org/huy_huu_nguyen/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/huy_huu_nguyen/avatar/32/"
+        }
+      }
+    },
+    "summary": {
+      "raw": "* TRUST-57: Prevented xframe clickjacking by setting response header x-frame-options to sameorigin\r\n\r\n* TRUST-57: Removed unused import\r\n\r\n* TRUST-57: Added mvnvm.properties",
+      "markup": "markdown",
+      "html": "<ul>\n<li>\n<p><a  id=\"detail-summary-web-item-57d8A\" rel=\"nofollow\"  href=\"https://ecosystem.atlassian.net/browse/TRUST-57\"   target=\"_blank\"  data-module-key=\"dvcs-connector-issue-key-linker\" data-plugin-key=\"jira-bitbucket-connector-plugin.61b6191d-d412-3043-a96c-75b7bceaed1f\" data-target-type=\"dialog\" data-target-options=\"{&quot;chrome&quot;: false, &quot;externalTargetUrl&quot;: &quot;/browse/{match.1}&quot;, &quot;productContext&quot;: {&quot;encContext&quot;: &quot;gAAAAABbEc1aXoS1G0fd88hNShSDtccUpEgMW1HolHCefpmZsorN6TrbVv_h65jpFMaUtc0ns-iIgaAkQp9qrXSNR6iwq_ttrWWqOcAuYjAwEiAHpDJU8N_kshHiFU7NXlVHxah4gJv-RHfUi_8FP4S70i9VVtQDXjQkn25Yd2bJQHxGATzNsjohvTfUf2AcE0-rkM8BVuCSahiOIHkIYVsyYDPA0tahFt9kZy2CnogFcmInVB2TU8vyU2K8r5SxdKOhV0w3cv-FIAwnio9qLGoBUwQ7JwQIggu8UcwIEJHrLTCBl2LEW0F4rcLN-C9qWWuwobaYXZUqv73lngA2iaZkEsNew7wPBt-YNVyJKJeM0ED1WNhU8DN9arstU1DMfQwsaXfB6tv5d2NQi3DbK4GWJsl47nVvqGqIPCmrFwPvmhgwGUiBS0QgHWB8rgqWWPM7a5m-nSedCIXZhIwVImVJk2l3lF_UUEiZv-TE2tHRIZgRMQ0mUVP63AdTUACVZCm2H2Z2fv2537NySpQ8nCECvx4sCQT-rRQKHzNn9XO0Rq-RdXcvO5x9EI8yGqylkKMyY-mkcflnmNhuWzX0KVOPNFWCQD8DSSJq8OgNhRl7MZr1o7L6JnL6Q2qM0w-yRORK9a_kjG-CvIClSsMSz390bbjZpPVoLR2pUOEwVtj9n-8J0YEyH0zwRnZtmGqlyRBS0qljqUDJUlYQN046NhnWCcdfOLroLWoJMYYEbi2gYqUSCEQJlrd_fSsPe0GFNVhamRVnqQWOx_vKEujEc8LtPcR3NFMSO8HCLGouFQkmP1Dwf3ErkoOFz8A9bi_E0FVJjDBDtysuSy8PI2GYtTqspwJh2wlxlgPw6jXjlhb-J6j7MXFdMA8eNR08GLw2v_JX5nn9uLcG38CU5cHh8xGKYjXVu7AsCB2GbhP5SmCewbE5eHEUCbVDMRx3Wk7H7KVElrcrn_jj9Yw-z7C2bPZvGpgQhyRYRorRzilj_UuOswDHVoKO1Ehad_St_s1w3FfBrGsky98DifR3ODNkhbjOMrSO8VJEi6GPUoIfyJJdbdINhDB8Whh4Q_iiRdtSLtahz5698p2U6x6qfQGtnjqKStdNDPvGDAWe-wVf1MzFnCmPX5nmLKtSxOZYvGmw4DDyBnOg_LHiuK-GEPb54w8wp64Snwl6UjuUz_JA9SczmJgHrgk2n_UNL8W96FViiwd7rlyX633AWQNkP2vVnCAHl9hGB7eIfOR4LYCHim5K4lyseZ8bMPeM0SWIdAZ0hWiCmaFYwgLoANdnD6looKkYgcLj66bqnAGObshOvXyrdefSWsuBPcd4DGj5pNuzH6-QQYK4qzAF2eTwcTBAOKqW_PtDaAsaR9GDpBQLru1GvjZTmQPhvEw=&quot;}, &quot;size&quot;: &quot;maximum&quot;}\" data-ct=\"bitbucket.connect.linkers.href.event.click\" data-ct-data='{\"linker_key\": \"dvcs-connector-issue-key-linker\", \"target_type\": \"dialog\"}'class=\"detail-summary--item--link  ap-dialog aui-button aui-button-text\" > <span class=\"aui-nav-item-label\">TRUST-57</span>  </a>: Prevented xframe clickjacking by setting response header x-frame-options to sameorigin</p>\n</li>\n<li>\n<p><a  id=\"detail-summary-web-item-57d8A\" rel=\"nofollow\"  href=\"https://ecosystem.atlassian.net/browse/TRUST-57\"   target=\"_blank\"  data-module-key=\"dvcs-connector-issue-key-linker\" data-plugin-key=\"jira-bitbucket-connector-plugin.61b6191d-d412-3043-a96c-75b7bceaed1f\" data-target-type=\"dialog\" data-target-options=\"{&quot;chrome&quot;: false, &quot;externalTargetUrl&quot;: &quot;/browse/{match.1}&quot;, &quot;productContext&quot;: {&quot;encContext&quot;: &quot;gAAAAABbEc1aaXAideScwd7dmx3UmTTfhDoiMdCpirlyanPWZMhZYd1y0Y3Xa5qLKDBq4teYdWhzjDkXCatl_Xo_7X6gtGqjKc_AAl7_ZfOM9Cl6DZdULtBKiH7WGCU7oKgIDsbDlLieUegg8XX8AIfkqrn4___GtA65VKIVme-L1877gFHatNeQWn2oPeeUK1mXdOHGrFDIfxHxt35LTd9Ia5DYIR--SN0VT2ZmBsNdkASjDFPQDri6auYeHT-zEFfyRVqtNYTzStBNKW9uoNYI9fl_ipgHbUI-ypLgmciTy6UDO5WWgA6Bv-1n_Np43uK9-n6n5Qna-PZYdFhrQ0wP2BSYYraSqFoR7geS8bJZEONm2wJ8n4wMDqAvZaijfjYQ7OKBWkwz5w5Pp6pUihIoMkivC3Mj4yQxxuxGaLgN7DbH2MmGPEE7kIQ0O6g3nNzlBrnXdX345ASBbK6Kennw-tNza8EqrA6-yg0CVM4-ZfgCyR5FGG989ObQ1Gtp8JjirmG40FflIAU3ZGBufdNGRkhS5SAmcpm7kTWGiyKklsg_TH4ZeOahHI0-5PsoG0sEXH_9lfdFgkVff5qYxBFluQ6B8ua9MbMXOWHPIKyjzO863T3FhYYPAlMn1zSe8BDTUEktgmjRAuqaM7_ILRDqq0i68SM5fZFxmsqaxQsfaeNsW6iEpCtK8b9Tlk2SCwpL0fmVslWWZBKgGMNfDe3BYGljFID-Oz6LICEtCJBpymkzvB5b3XaR2pt198iwvIpnXvuY1MMSncMajNicXJ1AAR_dYvpIJYFFZj-mD6VbbT5GCBxaLQnXMsiHjlT7nyKYk7ijYFpnNI3zSJW3saPUeEsRZZdg5HK-9WJuhLDl-v5gwBkpH9F18k7U7u03uUpE4GnVDyOdUItGJdfDaI6JDVAGL2l7Nj7cPrJhDJxb193ygDJxklCqQCcXfi642Ervsaefy9cX-DZPopTn7Y_L1mhmmkvbTOCOR6gD0cfoopWbjne6rXXDgBEtMynPLtB8KpU6VBDkZc795NrokWozs_wEPx03k8GvbmuagiJ4XTcIC299ZffcV5G5h9sPu-A8Pm6GPQsuhazOexMXM0f98Agwlzgh_FwysNcnNvxReCnfXtLaB9L0izK41y1UiPiXUiDMkNRY80WtKpYxr7U5V91zKJ6lk2gYOUPRHYndQcsL2EX9TifXwn8JG_6n4bsCgEBSP8JjTZRq1vlty-bJNq52pi8jzSrk-b1-dzAbl8623TRRXGy2ZKcXB8sSnTUL-zE2OHh4nEo6v-p7q4CAYmNEYR7Y1COd73gkq15ZQkMME9V9WyorpCi7TfoL4HFMZKHRVjWLWC8ynIYzTwce2jjUQskciYOqXXd2nPL2WjPDPUNTqyw=&quot;}, &quot;size&quot;: &quot;maximum&quot;}\" data-ct=\"bitbucket.connect.linkers.href.event.click\" data-ct-data='{\"linker_key\": \"dvcs-connector-issue-key-linker\", \"target_type\": \"dialog\"}' class=\"detail-summary--item--link  ap-dialog aui-button aui-button-text\" > <span class=\"aui-nav-item-label\">TRUST-57</span>  </a>: Removed unused import</p>\n</li>\n<li>\n<p><a  id=\"detail-summary-web-item-57d8A\" rel=\"nofollow\"  href=\"https://ecosystem.atlassian.net/browse/TRUST-57\"   target=\"_blank\"  data-module-key=\"dvcs-connector-issue-key-linker\" data-plugin-key=\"jira-bitbucket-connector-plugin.61b6191d-d412-3043-a96c-75b7bceaed1f\" data-target-type=\"dialog\" data-target-options=\"{&quot;chrome&quot;: false, &quot;externalTargetUrl&quot;: &quot;/browse/{match.1}&quot;, &quot;productContext&quot;: {&quot;encContext&quot;: &quot;gAAAAABbEc1aNKlJR6DcH_BUF42OkFTec9kuYA-wLS7PgICk7XAc95VABk_2wXF-ZuWJATxx3ifrT-y7-XfgmDR40u409RvicNCxWvTgjlCTcLVQ_1xRZA2OG7Me5dTLyYpe86vg9zagzaN7BdOKsEXluyW0mjA-GlUL0FlMcjXJgIM_VFb-YZlNexa73bOhlfbuxbTtQTzWSGoQbTTbNxVr9wfZg5x9nYqYvFMVoLDXU0PNIODqy_PkiK4rLpK_ZxKmMS0TlA8e0ZUrYZsdjUbs_v0tmTWpSYt-cP9yTS7P5HTG51yHmo3D76u6r2EfXxhn1OOy0-pv3Gaj7x2Ks5oVQEaHMlHEQrLQ28CRluCHvr0juI7epQfJwesa19Nc__28KWERZFIJTqH1Bd-VhVrnboPBzQYu_5MV39GiobOySgcg96d_Vfk_XkBl7zS3xfbAHiJJWWErDw7agZfiTvxblFE1htb0GLNRXLP_kSzncpVFlL0QrgoRY7rV8ke1J3EWysW0aPjfZY-02Cc6zCChcbYNEz7erggPKxdc2R3WlS-MY_eA_OWeXYDC0xMBAdz8YSNCBdQ-FrHg8Kmud-ThzY2Pqo54M3A-tHY8Cy4tTdsu8cUwiEnpXfiZcoKgKtdFBl41rsmWDQb9AeB4HW75BN7uV-oMOtlxHcFRoeHbbnEZHcmGYa3ykQvOpSLNfaMqCSBi-byRX-1u9rWKWh0ozbpING06bLesfEDzc7c2pf6emCYDN_yHkM7-UlN6MqSEBuxtNqzpJcPxf0ZB9rUnhDbbmNX52CQp04unLet31zk_nnrZmLEivjAaaFHrLRy36Q_LGd11ezN4HHQISRbZi4RaNtJQAon4Mq7-669nUjUai-YOOkK3ODEW3TjIB7YDamgV1Ml02I7g6CG2D887QamYpw60S0uy-D8jXYMmdPPOoNe6JVowwTmenozm2k9sAPzoSG3s9G0Y6_7eD2Y_FtrIW1qAEqQczJSwyauWrFalc2lEH26_J3nNaa-l2NBRA7gQIAgtgIk1H3x_s0pabRdfxkqO8Vtsm_IEfRNMX_YiTyH6DSu_gY0BhJNQOLORxsFb4yPVAGDxEKsycdOTAde7-WPAOoKqJB9QSiZkuzrQmx7g90qGbm8Wq6zxe7KyKjcKBn9xBC9_VRiNHT1UhyTevDWAVdm2SR316b0gxu7pZq-StTfO5ktrDr3Ivpj-9Oop8eg5kAxATIlusRHNEZq27mFpImoCfj_ccu6gPpe-u-N8s_EG5_9EGd9EH7fm-Ldgrl6759ccPxzskis2KUhimOYZWXGjtxRJ_PVRxnWKmA0e88HLS-ewWJcncXdYDds2vEq28D3qp5_t8ErpxyqodrXQAVvuHZ8gvy1-sMkjC9ZTeVo=&quot;}, &quot;size&quot;: &quot;maximum&quot;}\" data-ct=\"bitbucket.connect.linkers.href.event.click\" data-ct-data='{\"linker_key\": \"dvcs-connector-issue-key-linker\", \"target_type\": \"dialog\"}' class=\"detail-summary--item--link  ap-dialog aui-button aui-button-text\" > <span class=\"aui-nav-item-label\">TRUST-57</span>  </a>: Added mvnvm.properties</p>\n</li>\n</ul>",
+      "type": "rendered"
+    },
+    "source": {
+      "commit": {
+        "hash": "4a8d77956c75",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/4a8d77956c75"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "issue-1.2/TRUST-57"
+      }
+    },
+    "comment_count": 10,
+    "author": {
+      "username": "huy_huu_nguyen",
+      "display_name": "Huy Huu Nguyen",
+      "type": "user",
+      "uuid": "{9ef67c2a-fd32-4963-a4a6-7451a91f5648}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/huy_huu_nguyen"
+        },
+        "html": {
+          "href": "https://bitbucket.org/huy_huu_nguyen/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/huy_huu_nguyen/avatar/32/"
+        }
+      }
+    },
+    "created_on": "2015-10-13T09:09:12.402660+00:00",
+    "reason": "",
+    "updated_on": "2015-10-15T22:17:51.318180+00:00",
+    "type": "pullrequest",
+    "id": 28,
+    "task_count": 0
+  },
+  {
+    "description": "Update old (and broken) Stash mentions for the Bitbucket rename.\r\n\r\nWe'll need a new release of the plugin after this too :)",
+    "links": {
+      "decline": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/26/decline"
+      },
+      "commits": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/26/commits"
+      },
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/26"
+      },
+      "comments": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/26/comments"
+      },
+      "merge": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/26/merge"
+      },
+      "html": {
+        "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/26"
+      },
+      "activity": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/26/activity"
+      },
+      "diff": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/26/diff"
+      },
+      "approve": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/26/approve"
+      },
+      "statuses": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/26/statuses"
+      }
+    },
+    "title": "BSERV-7865 Replace old stash references to bitbucket",
+    "close_source_branch": true,
+    "merge_commit": {
+      "hash": "44e7119e2767",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/44e7119e2767"
+        }
+      }
+    },
+    "destination": {
+      "commit": {
+        "hash": "4116e5dd5774",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/4116e5dd5774"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "atlassian-oauth-2.0.x"
+      }
+    },
+    "state": "MERGED",
+    "closed_by": {
+      "username": "KristyHughes",
+      "display_name": "Kristy Hughes",
+      "type": "user",
+      "uuid": "{af06587b-523a-4e6c-b048-086ad5ce6c4e}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/KristyHughes"
+        },
+        "html": {
+          "href": "https://bitbucket.org/KristyHughes/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/KristyHughes/avatar/32/"
+        }
+      }
+    },
+    "summary": {
+      "raw": "Update old (and broken) Stash mentions for the Bitbucket rename.\r\n\r\nWe'll need a new release of the plugin after this too :)",
+      "markup": "markdown",
+      "html": "<p>Update old (and broken) Stash mentions for the Bitbucket rename.</p>\n<p>We'll need a new release of the plugin after this too :)</p>",
+      "type": "rendered"
+    },
+    "source": {
+      "commit": {
+        "hash": "070e213f3e87",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/070e213f3e87"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "BSERV-7865-upgrade-oauth-plugin-for-rebrand"
+      }
+    },
+    "comment_count": 2,
+    "author": {
+      "username": "KristyHughes",
+      "display_name": "Kristy Hughes",
+      "type": "user",
+      "uuid": "{af06587b-523a-4e6c-b048-086ad5ce6c4e}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/KristyHughes"
+        },
+        "html": {
+          "href": "https://bitbucket.org/KristyHughes/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/KristyHughes/avatar/32/"
+        }
+      }
+    },
+    "created_on": "2015-10-01T02:36:05.919893+00:00",
+    "reason": "",
+    "updated_on": "2015-10-01T02:52:04.031511+00:00",
+    "type": "pullrequest",
+    "id": 26,
+    "task_count": 0
+  },
+  {
+    "description": "The consumer-spi was using a plugin key of `${atlassian.plugin.key}` - the value was not being substituted because... I deleted that property from the pom (facepalm).\r\n\r\nIt was working in refapp and JIRA BTF as there are no other plugins with that key. However when it tries to load in JIRA OD or Connie it looks like a duplicate of another plugin with that key.\r\n\r\nAlso, cleaned up the imports while I was in there.",
+    "links": {
+      "decline": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/25/decline"
+      },
+      "commits": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/25/commits"
+      },
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/25"
+      },
+      "comments": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/25/comments"
+      },
+      "merge": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/25/merge"
+      },
+      "html": {
+        "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/25"
+      },
+      "activity": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/25/activity"
+      },
+      "diff": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/25/diff"
+      },
+      "approve": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/25/approve"
+      },
+      "statuses": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/25/statuses"
+      }
+    },
+    "title": "OAUTH-332 - give the consumer-spi a proper plugin key",
+    "close_source_branch": true,
+    "merge_commit": {
+      "hash": "adfa85f4f5e6",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/adfa85f4f5e6"
+        }
+      }
+    },
+    "destination": {
+      "commit": {
+        "hash": "2430e7b4dd3b",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/2430e7b4dd3b"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "atlassian-oauth-2.0.x"
+      }
+    },
+    "state": "MERGED",
+    "closed_by": {
+      "username": "acourtis",
+      "display_name": "Alex Courtis",
+      "type": "user",
+      "uuid": "{0c278efe-234b-40e8-ab1d-5d604ec4e684}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/acourtis"
+        },
+        "html": {
+          "href": "https://bitbucket.org/acourtis/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/acourtis/avatar/32/"
+        }
+      }
+    },
+    "summary": {
+      "raw": "The consumer-spi was using a plugin key of `${atlassian.plugin.key}` - the value was not being substituted because... I deleted that property from the pom (facepalm).\r\n\r\nIt was working in refapp and JIRA BTF as there are no other plugins with that key. However when it tries to load in JIRA OD or Connie it looks like a duplicate of another plugin with that key.\r\n\r\nAlso, cleaned up the imports while I was in there.",
+      "markup": "markdown",
+      "html": "<p>The consumer-spi was using a plugin key of <code>${atlassian.plugin.key}</code> - the value was not being substituted because... I deleted that property from the pom (facepalm).</p>\n<p>It was working in refapp and JIRA BTF as there are no other plugins with that key. However when it tries to load in JIRA OD or Connie it looks like a duplicate of another plugin with that key.</p>\n<p>Also, cleaned up the imports while I was in there.</p>",
+      "type": "rendered"
+    },
+    "source": {
+      "commit": {
+        "hash": "551941456a21",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/551941456a21"
+          }
+        }
+      },
+      "repository": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+          }
+        },
+        "type": "repository",
+        "name": "atlassian-oauth",
+        "full_name": "atlassian/atlassian-oauth",
+        "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+      },
+      "branch": {
+        "name": "issue-2.0/OAUTH-332"
+      }
+    },
+    "comment_count": 5,
+    "author": {
+      "username": "acourtis",
+      "display_name": "Alex Courtis",
+      "type": "user",
+      "uuid": "{0c278efe-234b-40e8-ab1d-5d604ec4e684}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/acourtis"
+        },
+        "html": {
+          "href": "https://bitbucket.org/acourtis/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/acourtis/avatar/32/"
+        }
+      }
+    },
+    "created_on": "2015-08-06T11:39:49.491960+00:00",
+    "reason": "",
+    "updated_on": "2015-08-10T01:27:00.772770+00:00",
+    "type": "pullrequest",
+    "id": 25,
+    "task_count": 0
+  }
+]

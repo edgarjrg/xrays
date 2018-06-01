@@ -1,0 +1,153 @@
+{
+  "description": "",
+  "links": {
+    "decline": {
+      "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/decline"
+    },
+    "commits": {
+      "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/commits"
+    },
+    "self": {
+      "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35"
+    },
+    "comments": {
+      "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/comments"
+    },
+    "merge": {
+      "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/merge"
+    },
+    "html": {
+      "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/35"
+    },
+    "activity": {
+      "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/activity"
+    },
+    "diff": {
+      "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/diff"
+    },
+    "approve": {
+      "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/approve"
+    },
+    "statuses": {
+      "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35/statuses"
+    }
+  },
+  "title": "OAUTH-338 NPE fix",
+  "close_source_branch": false,
+  "merge_commit": {
+    "hash": "75ee84fa3ed5",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/75ee84fa3ed5"
+      }
+    }
+  },
+  "destination": {
+    "commit": {
+      "hash": "eb4837209c7e",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/eb4837209c7e"
+        }
+      }
+    },
+    "repository": {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+        },
+        "html": {
+          "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+        }
+      },
+      "type": "repository",
+      "name": "atlassian-oauth",
+      "full_name": "atlassian/atlassian-oauth",
+      "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+    },
+    "branch": {
+      "name": "atlassian-oauth-2.0.x"
+    }
+  },
+  "state": "MERGED",
+  "closed_by": {
+    "username": "szczepanikp",
+    "display_name": "Patryk Szczepanik",
+    "type": "user",
+    "uuid": "{d48045e9-f9c0-40bf-af17-a0493783ffb4}",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/users/szczepanikp"
+      },
+      "html": {
+        "href": "https://bitbucket.org/szczepanikp/"
+      },
+      "avatar": {
+        "href": "https://bitbucket.org/account/szczepanikp/avatar/32/"
+      }
+    }
+  },
+  "summary": {
+    "raw": "",
+    "markup": "markdown",
+    "html": "",
+    "type": "rendered"
+  },
+  "source": {
+    "commit": {
+      "hash": "661e2112a237",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/661e2112a237"
+        }
+      }
+    },
+    "repository": {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+        },
+        "html": {
+          "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/atlassian/atlassian-oauth/avatar/32/"
+        }
+      },
+      "type": "repository",
+      "name": "atlassian-oauth",
+      "full_name": "atlassian/atlassian-oauth",
+      "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+    },
+    "branch": {
+      "name": "issue/OAUTH-338-npe-when-consumer-description-is-missing"
+    }
+  },
+  "comment_count": 3,
+  "author": {
+    "username": "szczepanikp",
+    "display_name": "Patryk Szczepanik",
+    "type": "user",
+    "uuid": "{d48045e9-f9c0-40bf-af17-a0493783ffb4}",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/users/szczepanikp"
+      },
+      "html": {
+        "href": "https://bitbucket.org/szczepanikp/"
+      },
+      "avatar": {
+        "href": "https://bitbucket.org/account/szczepanikp/avatar/32/"
+      }
+    }
+  },
+  "created_on": "2017-10-06T13:34:29.759667+00:00",
+  "reason": "",
+  "updated_on": "2017-10-10T09:45:08.173419+00:00",
+  "type": "pullrequest",
+  "id": 35,
+  "task_count": 0
+}
