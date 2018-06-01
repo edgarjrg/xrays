@@ -34,10 +34,6 @@
   version "10.1.2"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.1.2.tgz#1b928a0baa408fc8ae3ac012cc81375addc147c6"
 
-"@types/ramda@^0.25.32":
-  version "0.25.32"
-  resolved "https://registry.yarnpkg.com/@types/ramda/-/ramda-0.25.32.tgz#46b8c5f4a2df76543e10f635606b5692da921497"
-
 "@types/ramda@types/npm-ramda#dist":
   version "0.25.0"
   resolved "https://codeload.github.com/types/npm-ramda/tar.gz/2d17db50bd96bd7e602be6249bf4d98848814960"
