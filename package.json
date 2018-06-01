@@ -15,6 +15,7 @@
     "@types/jest": "^22.2.3",
     "@types/node": "^10.1.2",
     "@types/node-fetch": "^1.6.9",
+    "@types/ramda": "types/npm-ramda#dist",
     "jest": "^23.0.1",
     "mocha": "^5.2.0",
     "standard": "^11.0.1",
