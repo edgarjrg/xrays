@@ -43,7 +43,7 @@ test('should retrieve username projects', async () => {
   }
 
   const response = await repository.userRepositories(repo)
-  expect(response).toMatchSnapshot()
+  expect(Object.keys(response)).toMatchSnapshot()
 
 });
 
