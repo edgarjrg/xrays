@@ -1,5 +1,4 @@
 import { Repository } from "./BitbucketAPIs";
-import { PULL_REQUEST_STATE } from './constants'
 import { Auth } from "../../auth/src/index";
 
 describe('pullRequests', () => {
@@ -14,22 +13,22 @@ describe('pullRequests', () => {
   })
 
   test('should retrieve MERGED pull requests', async () => {
-    const response = await repository.pullRequests(repo, PULL_REQUEST_STATE.MERGED)
+    const response = await repository.pullRequests(repo, 'MERGED')
     expect(Object.keys(response)).toMatchSnapshot()
   });
 
   test('should retrieve DECLINED pull requests', async () => {
-    const response = await repository.pullRequests(repo, PULL_REQUEST_STATE.DECLINED)
+    const response = await repository.pullRequests(repo, 'DECLINED')
     expect(Object.keys(response)).toMatchSnapshot()
   });
 
   test('should retrieve OPEN pull requests', async () => {
-    const response = await repository.pullRequests(repo, PULL_REQUEST_STATE.OPEN)
+    const response = await repository.pullRequests(repo, 'OPEN')
     expect(Object.keys(response)).toMatchSnapshot()
   });
 
   test('should retrieve SUPERSEDED pull requests', async () => {
-    const response = await repository.pullRequests(repo, PULL_REQUEST_STATE.SUPERSEDED)
+    const response = await repository.pullRequests(repo, 'SUPERSEDED')
     expect(Object.keys(response)).toMatchSnapshot()
   });
 })

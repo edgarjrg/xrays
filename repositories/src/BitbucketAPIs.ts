@@ -10,8 +10,8 @@ import {
   PULL_REQUESTS_TEMPLATE,
   REPOSITORIES_TEMPLATE
 } from "./apiTemplates";
-import { CommentsInPullRequest, IRepository } from './interfaces'
-import { PULL_REQUEST_STATE } from "./constants";
+import { CommentsInPullRequest } from './interfaces'
+// import { PULL_REQUEST_STATE } from "./constants";
 
 function fetchFromAPI<T>({ Authorization, URL }: { Authorization: string, URL: string }): Bluebird<T> {
   return Bluebird

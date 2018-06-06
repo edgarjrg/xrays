@@ -1,4 +1,4 @@
-export interface IRepository {
+interface IRepository {
   projectKey: string;
   repoSlug: string;
   userName: string;
