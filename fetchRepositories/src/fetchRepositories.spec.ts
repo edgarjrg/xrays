@@ -1,4 +1,4 @@
-import { valuesLens, linkLens, getLinks } from './fetchRepositories'
+import { valuesLens, linkLens, getLinks, fetchAllPRLinksFrom } from './fetchRepositories'
 import { view } from 'ramda'
 
 test('valuesLens should bring the value of response', async () => {
@@ -16,5 +16,20 @@ test('linkLens should bring the link of the PR', async () => {
 test('getLinks should bring the link of the PR', async () => {
   const PRsResponse = require('./testData/mergedPRsResponse.json')
   expect(getLinks(PRsResponse)).toMatchSnapshot()
+});
+
+
+
+describe('fetchAllPRLinksFrom', () => {
+  it('should brind all repos from a repository', async () => {
+    const repo = {
+      projectKey: "atlassian-oauth",
+      repoSlug: "atlassian-oauth",
+      userName: "atlassian",
+    }
+    const response = await fetchAllPRLinksFrom(repo)
+
+    expect(response).toMatchSnapshot()
+  });
 });
 

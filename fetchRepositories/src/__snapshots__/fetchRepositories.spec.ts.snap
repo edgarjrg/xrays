@@ -1,5 +1,75 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`fetchAllPRLinksFrom should brind all repos from a repository 1`] = `
+Array [
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/33",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/32",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/31",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/30",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/29",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/28",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/26",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/25",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/24",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/23",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/21",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/19",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/18",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/17",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/15",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/16",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/14",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/13",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/11",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/10",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/9",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/3",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/8",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/7",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/6",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/5",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/4",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/2",
+]
+`;
+
+exports[`fetcher should brind all repos from a response  1`] = `
+Array [
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/33",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/32",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/31",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/30",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/29",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/28",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/26",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/25",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/24",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/23",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/21",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/19",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/18",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/17",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/15",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/16",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/14",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/13",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/11",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/10",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/9",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/3",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/8",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/7",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/6",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/5",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/4",
+  "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/2",
+]
+`;
+
 exports[`getLinks should bring the link of the PR 1`] = `
 Array [
   "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35",
