@@ -1,4 +1,4 @@
-{
+module.exports = {
   "roots": [
     "<rootDir>/"
   ],
@@ -8,13 +8,7 @@
   "testRegex": "spec\\.ts$",
   "moduleFileExtensions": [
     "ts",
-    "json"
-  ],
-  "moduleFileExtensions": [
-    "ts",
-    "tsx",
     "js",
-    "jsx",
     "json",
     "node"
   ]

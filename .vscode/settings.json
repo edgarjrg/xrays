@@ -1,12 +1,4 @@
 {
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/*.js": true
-  },
   "tslint.autoFixOnSave": true,
   "eslint.autoFixOnSave": true,
   "editor.formatOnSave": true

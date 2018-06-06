@@ -64,5 +64,5 @@ typings/
 creds/
 
 #hide typescript generated files
-*.js
+dist/
 *.map
