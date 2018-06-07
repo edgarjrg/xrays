@@ -1,5 +1,3 @@
-import { IRepository } from "./IRepository";
-import { PULL_REQUEST_STATE } from "./constants";
 export const api2: string = "https://api.bitbucket.org/2.0/";
 import { stringify } from "querystring";
 
@@ -20,7 +18,7 @@ export const ACTIVITY_IN_PULL_REQUEST_TEMPLATE =
         `${api2}repositories/${userName}/${repoSlug}/pullrequests/${pullRequestId}/activity`;
 
 export const PULL_REQUESTS_TEMPLATE =
-    ({ userName, repoSlug }: IRepository, state: PULL_REQUEST_STATE = PULL_REQUEST_STATE.OPEN, page: number = 1): string =>
+    ({ userName, repoSlug }: IRepository, state: PULL_REQUEST_STATE = 'OPEN', page: number = 1): string =>
         `${api2}repositories/${userName}/${repoSlug}/pullrequests/?${stringify({ state, page })}`;
 
 export const REPOSITORIES_TEMPLATE =
