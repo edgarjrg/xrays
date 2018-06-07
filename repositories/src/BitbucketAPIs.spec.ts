@@ -1,15 +1,15 @@
-import { Repository } from "./BitbucketAPIs";
+import { BitbucketAPI } from "./BitbucketAPIs";
 import { Auth } from "../../auth/src/index";
 
 describe('pullRequests', () => {
-  let repository: Repository
+  let repository: BitbucketAPI
   const repo = {
     projectKey: "atlassian-oauth",
     repoSlug: "atlassian-oauth",
     userName: "atlassian",
   }
   beforeAll(() => {
-    repository = new Repository(new Auth())
+    repository = new BitbucketAPI(new Auth())
   })
 
   test('should retrieve MERGED pull requests', async () => {
@@ -34,7 +34,7 @@ describe('pullRequests', () => {
 })
 
 test('should retrieve username projects', async () => {
-  const repository = new Repository(new Auth())
+  const repository = new BitbucketAPI(new Auth())
   const repo = {
     projectKey: "atlassian-oauth",
     repoSlug: "atlassian-oauth",

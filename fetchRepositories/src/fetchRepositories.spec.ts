@@ -1,5 +1,12 @@
-import { valuesLens, linkLens, getLinks, fetchAllPRLinksFrom } from './fetchRepositories'
-import { view } from 'ramda'
+import { valuesLens, linkLens, fetchAllPRLinksFrom, httpResponse2ObjectToPreserve } from './fetchRepositories';
+import { view } from 'ramda';
+import * as Bluebird from 'bluebird';
+
+const repository = {
+  projectKey: "atlassian-oauth",
+  repoSlug: "atlassian-oauth",
+  userName: "atlassian",
+}
 
 test('valuesLens should bring the value of response', async () => {
   const PRsResponse = require('./testData/mergedPRsResponse.json')
@@ -13,23 +20,23 @@ test('linkLens should bring the link of the PR', async () => {
   expect(view<string, any>(linkLens, linkLensInput)).toEqual(linkLensExpected)
 });
 
-test('getLinks should bring the link of the PR', async () => {
+test('httpResponse2ObjectToPreserve', async () => {
   const PRsResponse = require('./testData/mergedPRsResponse.json')
-  expect(getLinks(PRsResponse)).toMatchSnapshot()
+
+
+  const response = httpResponse2ObjectToPreserve(repository, PRsResponse)
+  expect(response).toMatchSnapshot()
 });
 
-
-
 describe('fetchAllPRLinksFrom', () => {
-  it('should brind all repos from a repository', async () => {
-    const repo = {
-      projectKey: "atlassian-oauth",
-      repoSlug: "atlassian-oauth",
-      userName: "atlassian",
-    }
-    const response = await fetchAllPRLinksFrom(repo)
+  it('should bring all repository from a repository @integration @slow', async () => {
 
-    expect(response).toMatchSnapshot()
-  });
+    const spy = jest.fn(((a) => Bluebird.resolve({})))
+
+    const response = await fetchAllPRLinksFrom(spy, repository)
+
+
+    expect(spy.mock.calls).toMatchSnapshot()
+  }, 10000);
 });
 

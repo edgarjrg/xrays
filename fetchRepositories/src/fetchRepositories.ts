@@ -1,29 +1,37 @@
-import { lensProp, lensPath, view, map, chain } from 'ramda';
+import { lensProp, lensPath, view, map, compose, flip, append, transduce } from 'ramda';
 import { DoWhileAsync } from "../../repositories/src/DoWhileAsync";
-import { Repository } from "../../repositories/src/BitbucketAPIs";
+import { BitbucketAPI } from "../../repositories/src/BitbucketAPIs";
 import { Auth } from "../../auth/src";
 
-export async function fetchAllPRLinksFrom(repo: IRepository) {
-  const responses: any[] = []
-  const repository = new Repository(new Auth())
-  const repositories = await repository.repositories()
+export async function fetchAllPRLinksFrom(callback, repository: IRepository) {
+  const bitbucketAPI = new BitbucketAPI(new Auth())
+
   let page = 1
 
   const response = await DoWhileAsync(
-    () => repository.pullRequests(repo, 'MERGED', page),
-    (r) => r.next !== undefined,
-    (r) => {
-      responses.push(r)
-      page++;
+    () => bitbucketAPI.pullRequests(repository, 'MERGED', page),
+    (httpResponse) => httpResponse.next !== undefined,
+    (httpResponse) => {
+      return callback(httpResponse2ObjectToPreserve(repository, httpResponse))
+        .then(() => {
+          page++;
+        })
     }
   )
+}
 
-  return chain(getLinks, responses)
+export function httpResponse2ObjectToPreserve(repository, httpResponse) {
+  const links2ObjectToPreserve = map((pullRequestURL) => ({
+    ...repository,
+    pullRequestURL
+  }))
+
+  const httpResponse2Links = map(view(linkLens))
+
+  const transducer = compose(httpResponse2Links, links2ObjectToPreserve)
+
+  return transduce(transducer, flip(append), [], view(valuesLens, httpResponse))
 }
 
 export const valuesLens = lensProp('values')
 export const linkLens = lensPath<any, string>(['links', 'self', 'href'])
-
-export function getLinks(input): string[] {
-  return map(view(linkLens), view(valuesLens, input))
-}

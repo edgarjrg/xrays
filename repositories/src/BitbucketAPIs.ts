@@ -25,7 +25,7 @@ function fetchFromAPI<T>({ Authorization, URL }: { Authorization: string, URL: s
     .then((response) => response.json() as Promise<T>);
 }
 
-export class Repository {
+export class BitbucketAPI {
   public auth: Auth;
   constructor(auth) {
     this.auth = auth;

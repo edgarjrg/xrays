@@ -1,5 +1,5 @@
 import { DoWhileAsync } from './DoWhileAsync'
-import { Repository } from "./BitbucketAPIs";
+import { BitbucketAPI } from "./BitbucketAPIs";
 import { Auth } from "../../auth/src/index";
 import * as Bluebird from 'bluebird';
 
@@ -12,6 +12,7 @@ test('should iterate while matched criteria', async () => {
     (r) => r !== 4,
     (r) => {
       responses.push(r)
+      return Bluebird.resolve()
     }
   )
 
@@ -21,7 +22,7 @@ test('should iterate while matched criteria', async () => {
 
 test('should retrieve repository information', async () => {
   const responses: any[] = []
-  const repository = new Repository(new Auth())
+  const repository = new BitbucketAPI(new Auth())
   const repositories = await repository.repositories()
 
   await DoWhileAsync(
@@ -29,6 +30,7 @@ test('should retrieve repository information', async () => {
     (r) => r.next !== undefined,
     (r) => {
       responses.push(r)
+      return Bluebird.resolve()
     }
   )
 
