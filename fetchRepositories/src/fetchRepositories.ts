@@ -5,13 +5,14 @@ import { Auth } from "../../auth/src";
 import { PullRequest } from '../../models/pullRequest'
 import * as Bluebird from 'bluebird'
 
-export async function preserveAllPRsFromRepository(repository: IRepository) {
-  return new FetchingAndPreservationProcess()
-    .will
+export async function FetchAndStorePullRequestFromRepository(repository: IRepository) {
+  return new FetchingAndStoringProcess()
+    .that.will
     .fetchFromRepository(repository)
-    .and
-    .preserveAtEachStepUsing(PRsFromRepositoryPreserver)
-    .start()
+    .using(allPullRequestLinksFetcher)
+    .and.will
+    .storeAtEachStepUsing(pullRequestBulkStore)
+    .startingNow()
 }
 
 export function retrieveAllPRsFromRepository(repository: IRepository) {
@@ -23,19 +24,25 @@ export function retrieveAllPRsFromRepository(repository: IRepository) {
   })
 }
 
-function PRsFromRepositoryPreserver(data) {
+function pullRequestBulkStore(data) {
   return PullRequest.bulkCreate(data)
 }
 
-class FetchingAndPreservationProcess {
+class FetchingAndStoringProcess {
   readonly and = this
+  readonly that = this
   readonly will = this
   private preserver?: () => Bluebird<any>
   private repository?: IRepository
+  private fetcher
 
+  storeAtEachStepUsing(preserverImplementation) {
+    this.preserver = preserverImplementation
+    return this
+  }
 
-  preserveAtEachStepUsing(preserver) {
-    this.preserver = preserver
+  using(fetcherImplementation) {
+    this.fetcher = fetcherImplementation;
     return this
   }
 
@@ -44,12 +51,12 @@ class FetchingAndPreservationProcess {
     return this
   }
 
-  async start() {
+  async startingNow() {
     if (this.passesAllStartPolicies()) {
-      return fetchAllPRLinksFrom(this.preserver, this.repository!)
+      return this.fetcher(this.preserver, this.repository!)
     }
     else {
-      return FetchingAndPreservationProcess.startError(this)
+      return FetchingAndStoringProcess.startError(this)
     }
   }
 
@@ -57,13 +64,13 @@ class FetchingAndPreservationProcess {
     return (this.preserver && this.repository) ? true : false
   }
 
-  private static startError(instance: FetchingAndPreservationProcess) {
-    return new Error('')
+  private static startError(instance: FetchingAndStoringProcess) {
+    return new Error('Either the preserver or the repository is not well defined!')
   }
 
 }
 
-export async function fetchAllPRLinksFrom(callback, repository: IRepository) {
+export async function allPullRequestLinksFetcher(callback, repository: IRepository) {
   const bitbucketAPI = new BitbucketAPI(new Auth())
 
   let page = 1

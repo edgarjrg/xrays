@@ -1,4 +1,4 @@
-import { valuesLens, linkLens, fetchAllPRLinksFrom, httpResponse2ObjectToPreserve } from './fetchRepositories';
+import { valuesLens, linkLens, allPullRequestLinksFetcher, httpResponse2ObjectToPreserve } from './fetchRepositories';
 import { view } from 'ramda';
 import * as Bluebird from 'bluebird';
 
@@ -33,7 +33,7 @@ describe('fetchAllPRLinksFrom', () => {
 
     const spy = jest.fn(((a) => Bluebird.resolve({})))
 
-    const response = await fetchAllPRLinksFrom(spy, repository)
+    const response = await allPullRequestLinksFetcher(spy, repository)
 
 
     expect(spy.mock.calls).toMatchSnapshot()

@@ -1,4 +1,4 @@
-import { preserveAllPRsFromRepository, retrieveAllPRsFromRepository } from './fetchRepositories';
+import { FetchAndStorePullRequestFromRepository, retrieveAllPRsFromRepository } from './fetchRepositories';
 import { db } from '../../sequelize'
 import { omit, map, pipe } from 'ramda';
 
@@ -16,7 +16,7 @@ describe('preserveAllPRsFromRepository @network @database', () => {
 
   it('should bring all repository pull request and save them in database', async () => {
 
-    await preserveAllPRsFromRepository(repository)
+    await FetchAndStorePullRequestFromRepository(repository)
 
     const result = await retrieveAllPRsFromRepository(repository)
 
