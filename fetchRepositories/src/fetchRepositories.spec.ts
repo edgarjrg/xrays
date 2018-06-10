@@ -39,4 +39,3 @@ describe('fetchAllPRLinksFrom', () => {
     expect(spy.mock.calls).toMatchSnapshot()
   }, 10000);
 });
-

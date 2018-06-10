@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`preserveAllPRsFromRepository @network @database should bring all repository pull request and save them in database 1`] = `
+Array [
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/35",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/33",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/32",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/31",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/30",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/29",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/28",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/26",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/25",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/24",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/23",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/21",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/19",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/18",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/17",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/15",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/16",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/14",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/13",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/11",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/10",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/9",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/3",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/8",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/7",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/6",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/5",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/4",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+  Object {
+    "projectKey": "atlassian-oauth",
+    "pullRequestURL": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/2",
+    "repoSlug": "atlassian-oauth",
+    "userName": "atlassian",
+  },
+]
+`;
