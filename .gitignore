@@ -66,3 +66,5 @@ creds/
 #hide typescript generated files
 dist/
 *.map
+
+/orchestation/db/

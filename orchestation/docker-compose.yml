@@ -1,0 +1,16 @@
+version: "2"
+
+services:
+
+  postgres:
+    image: postgres:9.6-alpine
+    container_name: xrays-postgres
+    volumes:
+     - ./db/data:/var/lib/postgresql/data
+     - ./db/dumps:/var/lib/postgresql/dumps
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_USER=xrays
+      - POSTGRES_DB=xrays

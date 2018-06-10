@@ -8,6 +8,9 @@
     "inlineSourceMap": true,
     "noUnusedLocals": true,
     "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "checkJs": true,
   },
   "files": [
     "./node_modules/@types/node/index.d.ts"
