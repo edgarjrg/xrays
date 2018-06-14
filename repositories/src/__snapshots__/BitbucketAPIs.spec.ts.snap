@@ -1,6 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`pullRequests should retrieve DECLINED pull requests 1`] = `
+exports[`Bitbucket API activityInPullRequest should bring the activity of the Pull Request 1`] = `
+Array [
+  "pagelen",
+  "values",
+  "next",
+]
+`;
+
+exports[`Bitbucket API pullRequest should bring the pull request summary 1`] = `
+Array [
+  "merge_commit",
+  "description",
+  "links",
+  "title",
+  "close_source_branch",
+  "reviewers",
+  "destination",
+  "state",
+  "closed_by",
+  "summary",
+  "source",
+  "comment_count",
+  "author",
+  "created_on",
+  "participants",
+  "reason",
+  "updated_on",
+  "type",
+  "id",
+  "task_count",
+]
+`;
+
+exports[`Bitbucket API pullRequests should retrieve DECLINED pull requests 1`] = `
 Array [
   "pagelen",
   "values",
@@ -9,7 +42,7 @@ Array [
 ]
 `;
 
-exports[`pullRequests should retrieve MERGED pull requests 1`] = `
+exports[`Bitbucket API pullRequests should retrieve MERGED pull requests 1`] = `
 Array [
   "pagelen",
   "size",
@@ -19,7 +52,7 @@ Array [
 ]
 `;
 
-exports[`pullRequests should retrieve OPEN pull requests 1`] = `
+exports[`Bitbucket API pullRequests should retrieve OPEN pull requests 1`] = `
 Array [
   "pagelen",
   "values",
@@ -28,7 +61,7 @@ Array [
 ]
 `;
 
-exports[`pullRequests should retrieve SUPERSEDED pull requests 1`] = `
+exports[`Bitbucket API pullRequests should retrieve SUPERSEDED pull requests 1`] = `
 Array [
   "pagelen",
   "values",
@@ -37,7 +70,7 @@ Array [
 ]
 `;
 
-exports[`should retrieve username projects 1`] = `
+exports[`Bitbucket API should retrieve username projects 1`] = `
 Array [
   "next",
   "values",

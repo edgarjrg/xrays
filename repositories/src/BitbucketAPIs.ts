@@ -8,10 +8,9 @@ import {
   AUTHORIZATION_TEMPLATE,
   COMMENTS_IN_PULL_REQUEST_TEMPLATE,
   PULL_REQUESTS_TEMPLATE,
-  REPOSITORIES_TEMPLATE
+  REPOSITORIES_TEMPLATE,
+  PULL_REQUEST_TEMPLATE
 } from "./apiTemplates";
-import { CommentsInPullRequest } from './interfaces'
-// import { PULL_REQUEST_STATE } from "./constants";
 
 function fetchFromAPI<T>({ Authorization, URL }: { Authorization: string, URL: string }): Bluebird<T> {
   return Bluebird
@@ -87,6 +86,14 @@ export class BitbucketAPI {
           Authorization: AUTHORIZATION_TEMPLATE(authentication.access_token),
           URL: PULL_REQUESTS_TEMPLATE(repository, state, page),
         }));
+  }
 
+  public pullRequest(repository: IRepository, pullRequestID: number): Bluebird<any> {
+    return this.auth.logIn()
+      .then((authentication) =>
+        fetchFromAPI<any>({
+          Authorization: AUTHORIZATION_TEMPLATE(authentication.access_token),
+          URL: PULL_REQUEST_TEMPLATE(repository, pullRequestID),
+        }));
   }
 }

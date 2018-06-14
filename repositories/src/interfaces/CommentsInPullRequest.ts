@@ -1,4 +1,4 @@
-export interface CommentsInPullRequest {
+interface CommentsInPullRequest {
   pagelen: number,
   values: {
     links: any,
