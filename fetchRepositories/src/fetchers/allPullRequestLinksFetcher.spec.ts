@@ -1,4 +1,4 @@
-import { valuesLens, linkLens, allPullRequestLinksFetcher, httpResponse2ObjectToPreserve } from './fetchRepositories';
+import { valuesLens, linkLens, allPullRequestLinksFetcher, httpResponse2ObjectToPreserve } from './allPullRequestLinksFetcher';
 import { view } from 'ramda';
 import * as Bluebird from 'bluebird';
 
