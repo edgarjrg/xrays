@@ -1,4 +1,4 @@
-import { allPullRequestLinksFetcher } from "./fetchers/allPullRequestLinksFetcher";
+import { allPullRequestLinksFetcher } from "./fetchers/allPullRequestLinksFetcher/allPullRequestLinksFetcher";
 import { PullRequest } from '../../models/pullRequest'
 import * as Bluebird from 'bluebird'
 

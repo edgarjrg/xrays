@@ -1,6 +1,6 @@
-import { DoWhileAsync } from "../../../repositories/src/DoWhileAsync";
-import { BitbucketAPI } from "../../../repositories/src/BitbucketAPIs";
-import { Auth } from "../../../auth/src";
+import { DoWhileAsync } from "../../../../repositories/src/DoWhileAsync";
+import { BitbucketAPI } from "../../../../repositories/src/BitbucketAPIs";
+import { Auth } from "../../../../auth/src";
 import { lensProp, lensPath, view, map, compose, flip, append, transduce } from 'ramda';
 
 
