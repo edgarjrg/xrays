@@ -1,0 +1,483 @@
+{
+  "pagelen": 10,
+  "values": [
+    {
+      "comment": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34/comments/32248900"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/34/_/diff#comment-32248900"
+          }
+        },
+        "deleted": false,
+        "pullrequest": {
+          "type": "pullrequest",
+          "id": 34,
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34"
+            },
+            "html": {
+              "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/34"
+            }
+          },
+          "title": "OAUTH-181: bump net.oauth version"
+        },
+        "content": {
+          "raw": "atlassian-oauth-consumer-sal-plugin exports net.oauth with a version of 20090617. I presume that should be changed as well? CC @lpater ",
+          "markup": "markdown",
+          "html": "<p>atlassian-oauth-consumer-sal-plugin exports net.oauth with a version of <a href=\"https://api.bitbucket.org/atlassian/atlassian-oauth/commits/20090617\" rel=\"nofollow\">20090617</a>. I presume that should be changed as well? CC <a href=\"https://api.bitbucket.org/lpater/\" rel=\"nofollow\" title=\"@lpater\" class=\"mention\">@Lukasz Pater</a> </p>",
+          "type": "rendered"
+        },
+        "created_on": "2017-02-28T08:07:23.753421+00:00",
+        "user": {
+          "username": "ppetrowski",
+          "display_name": "Patryk Petrowski",
+          "type": "user",
+          "uuid": "{4d37aca5-6370-453b-8561-85c1beacaf2c}",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/users/ppetrowski"
+            },
+            "html": {
+              "href": "https://bitbucket.org/ppetrowski/"
+            },
+            "avatar": {
+              "href": "https://bitbucket.org/account/ppetrowski/avatar/32/"
+            }
+          }
+        },
+        "updated_on": "2017-02-28T08:07:23.785716+00:00",
+        "type": "pullrequest_comment",
+        "id": 32248900
+      },
+      "pull_request": {
+        "type": "pullrequest",
+        "id": 34,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/34"
+          }
+        },
+        "title": "OAUTH-181: bump net.oauth version"
+      }
+    },
+    {
+      "comment": {
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34/comments/32246292"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/34/_/diff#comment-32246292"
+          }
+        },
+        "deleted": false,
+        "pullrequest": {
+          "type": "pullrequest",
+          "id": 34,
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34"
+            },
+            "html": {
+              "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/34"
+            }
+          },
+          "title": "OAUTH-181: bump net.oauth version"
+        },
+        "content": {
+          "raw": "Nit: Maybe extract to some variable? `{net.oauth.version}`",
+          "markup": "markdown",
+          "html": "<p>Nit: Maybe extract to some variable? <code>{net.oauth.version}</code></p>",
+          "type": "rendered"
+        },
+        "created_on": "2017-02-28T07:14:39.807157+00:00",
+        "user": {
+          "username": "mmakowskii",
+          "display_name": "Mateusz Makowski",
+          "type": "user",
+          "uuid": "{298f0112-d1d1-468f-b29c-846a14c57230}",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/users/mmakowskii"
+            },
+            "html": {
+              "href": "https://bitbucket.org/mmakowskii/"
+            },
+            "avatar": {
+              "href": "https://bitbucket.org/account/mmakowskii/avatar/32/"
+            }
+          }
+        },
+        "inline": {},
+        "updated_on": "2017-02-28T07:14:39.811671+00:00",
+        "type": "pullrequest_comment",
+        "id": 32246292
+      },
+      "pull_request": {
+        "type": "pullrequest",
+        "id": 34,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/34"
+          }
+        },
+        "title": "OAUTH-181: bump net.oauth version"
+      }
+    },
+    {
+      "approval": {
+        "date": "2017-02-28T07:14:07.634137+00:00",
+        "pullrequest": {
+          "type": "pullrequest",
+          "id": 34,
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34"
+            },
+            "html": {
+              "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/34"
+            }
+          },
+          "title": "OAUTH-181: bump net.oauth version"
+        },
+        "user": {
+          "username": "mmakowskii",
+          "display_name": "Mateusz Makowski",
+          "type": "user",
+          "uuid": "{298f0112-d1d1-468f-b29c-846a14c57230}",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/users/mmakowskii"
+            },
+            "html": {
+              "href": "https://bitbucket.org/mmakowskii/"
+            },
+            "avatar": {
+              "href": "https://bitbucket.org/account/mmakowskii/avatar/32/"
+            }
+          }
+        }
+      },
+      "pull_request": {
+        "type": "pullrequest",
+        "id": 34,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/34"
+          }
+        },
+        "title": "OAUTH-181: bump net.oauth version"
+      }
+    },
+    {
+      "update": {
+        "description": "",
+        "title": "OAUTH-181: bump net.oauth version",
+        "destination": {
+          "commit": {
+            "hash": "8915a1b8756c",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/8915a1b8756c"
+              }
+            }
+          },
+          "repository": {
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+              },
+              "html": {
+                "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+              },
+              "avatar": {
+                "href": "https://bytebucket.org/ravatar/%7Bacdf400e-0a05-4ce6-9f5b-a026fe0379f9%7D?ts=default"
+              }
+            },
+            "type": "repository",
+            "name": "atlassian-oauth",
+            "full_name": "atlassian/atlassian-oauth",
+            "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+          },
+          "branch": {
+            "name": "atlassian-oauth-2.0.x"
+          }
+        },
+        "reason": "",
+        "source": {
+          "commit": {
+            "hash": "621a1484c9b8",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/621a1484c9b8"
+              }
+            }
+          },
+          "repository": {
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+              },
+              "html": {
+                "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+              },
+              "avatar": {
+                "href": "https://bytebucket.org/ravatar/%7Bacdf400e-0a05-4ce6-9f5b-a026fe0379f9%7D?ts=default"
+              }
+            },
+            "type": "repository",
+            "name": "atlassian-oauth",
+            "full_name": "atlassian/atlassian-oauth",
+            "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+          },
+          "branch": {
+            "name": "issue/OAUTH-181-upgrade-oauth-lib-to-fix-timing-attack"
+          }
+        },
+        "state": "OPEN",
+        "author": {
+          "username": "ppetrowski",
+          "display_name": "Patryk Petrowski",
+          "type": "user",
+          "uuid": "{4d37aca5-6370-453b-8561-85c1beacaf2c}",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/users/ppetrowski"
+            },
+            "html": {
+              "href": "https://bitbucket.org/ppetrowski/"
+            },
+            "avatar": {
+              "href": "https://bitbucket.org/account/ppetrowski/avatar/32/"
+            }
+          }
+        },
+        "date": "2017-02-27T15:31:46.674739+00:00"
+      },
+      "pull_request": {
+        "type": "pullrequest",
+        "id": 34,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/34"
+          }
+        },
+        "title": "OAUTH-181: bump net.oauth version"
+      }
+    },
+    {
+      "update": {
+        "description": "",
+        "title": "OAUTH-181: bump net.oauth version",
+        "destination": {
+          "commit": {
+            "hash": "8915a1b8756c",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/8915a1b8756c"
+              }
+            }
+          },
+          "repository": {
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+              },
+              "html": {
+                "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+              },
+              "avatar": {
+                "href": "https://bytebucket.org/ravatar/%7Bacdf400e-0a05-4ce6-9f5b-a026fe0379f9%7D?ts=default"
+              }
+            },
+            "type": "repository",
+            "name": "atlassian-oauth",
+            "full_name": "atlassian/atlassian-oauth",
+            "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+          },
+          "branch": {
+            "name": "atlassian-oauth-2.0.x"
+          }
+        },
+        "reason": "",
+        "source": {
+          "commit": {
+            "hash": "621a1484c9b8",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/621a1484c9b8"
+              }
+            }
+          },
+          "repository": {
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+              },
+              "html": {
+                "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+              },
+              "avatar": {
+                "href": "https://bytebucket.org/ravatar/%7Bacdf400e-0a05-4ce6-9f5b-a026fe0379f9%7D?ts=default"
+              }
+            },
+            "type": "repository",
+            "name": "atlassian-oauth",
+            "full_name": "atlassian/atlassian-oauth",
+            "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+          },
+          "branch": {
+            "name": "issue/OAUTH-181-upgrade-oauth-lib-to-fix-timing-attack"
+          }
+        },
+        "state": "OPEN",
+        "author": {
+          "username": "ppetrowski",
+          "display_name": "Patryk Petrowski",
+          "type": "user",
+          "uuid": "{4d37aca5-6370-453b-8561-85c1beacaf2c}",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/users/ppetrowski"
+            },
+            "html": {
+              "href": "https://bitbucket.org/ppetrowski/"
+            },
+            "avatar": {
+              "href": "https://bitbucket.org/account/ppetrowski/avatar/32/"
+            }
+          }
+        },
+        "date": "2017-02-27T15:31:22.529854+00:00"
+      },
+      "pull_request": {
+        "type": "pullrequest",
+        "id": 34,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/34"
+          }
+        },
+        "title": "OAUTH-181: bump net.oauth version"
+      }
+    },
+    {
+      "update": {
+        "description": "",
+        "title": "OAUTH-181: bump net.oauth version",
+        "destination": {
+          "commit": {
+            "hash": "8915a1b8756c",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/8915a1b8756c"
+              }
+            }
+          },
+          "repository": {
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+              },
+              "html": {
+                "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+              },
+              "avatar": {
+                "href": "https://bytebucket.org/ravatar/%7Bacdf400e-0a05-4ce6-9f5b-a026fe0379f9%7D?ts=default"
+              }
+            },
+            "type": "repository",
+            "name": "atlassian-oauth",
+            "full_name": "atlassian/atlassian-oauth",
+            "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+          },
+          "branch": {
+            "name": "atlassian-oauth-2.0.x"
+          }
+        },
+        "reason": "",
+        "source": {
+          "commit": {
+            "hash": "621a1484c9b8",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/commit/621a1484c9b8"
+              }
+            }
+          },
+          "repository": {
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth"
+              },
+              "html": {
+                "href": "https://bitbucket.org/atlassian/atlassian-oauth"
+              },
+              "avatar": {
+                "href": "https://bytebucket.org/ravatar/%7Bacdf400e-0a05-4ce6-9f5b-a026fe0379f9%7D?ts=default"
+              }
+            },
+            "type": "repository",
+            "name": "atlassian-oauth",
+            "full_name": "atlassian/atlassian-oauth",
+            "uuid": "{acdf400e-0a05-4ce6-9f5b-a026fe0379f9}"
+          },
+          "branch": {
+            "name": "issue/OAUTH-181-upgrade-oauth-lib-to-fix-timing-attack"
+          }
+        },
+        "state": "OPEN",
+        "author": {
+          "username": "ppetrowski",
+          "display_name": "Patryk Petrowski",
+          "type": "user",
+          "uuid": "{4d37aca5-6370-453b-8561-85c1beacaf2c}",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/users/ppetrowski"
+            },
+            "html": {
+              "href": "https://bitbucket.org/ppetrowski/"
+            },
+            "avatar": {
+              "href": "https://bitbucket.org/account/ppetrowski/avatar/32/"
+            }
+          }
+        },
+        "date": "2017-02-27T15:31:22.497552+00:00"
+      },
+      "pull_request": {
+        "type": "pullrequest",
+        "id": 34,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/atlassian/atlassian-oauth/pullrequests/34"
+          },
+          "html": {
+            "href": "https://bitbucket.org/atlassian/atlassian-oauth/pull-requests/34"
+          }
+        },
+        "title": "OAUTH-181: bump net.oauth version"
+      }
+    }
+  ]
+}
