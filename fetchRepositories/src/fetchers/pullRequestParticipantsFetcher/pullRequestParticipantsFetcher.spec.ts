@@ -1,4 +1,4 @@
-import { findAuthor, findApprovers } from './otro';
+import { findAuthor, findApprovers } from './pullRequestParticipantsFetcher';
 import { ap } from 'ramda';
 // import * as Bluebird from 'bluebird';
 

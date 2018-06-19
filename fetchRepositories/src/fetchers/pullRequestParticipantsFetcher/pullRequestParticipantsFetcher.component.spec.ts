@@ -1,4 +1,4 @@
-import { pullRequestParticipantBulkStore } from './otro';
+import { pullRequestParticipantBulkStore } from './pullRequestParticipantsFetcher';
 import { db } from "../../../../sequelize";
 import { map, omit } from "ramda";
 
