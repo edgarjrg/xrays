@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`repository @database should read an write 1`] = `
+Object {
+  "projectKey": "atlassian-oauth",
+  "repoSlug": "atlassian-oauth",
+  "userName": "atlassian",
+}
+`;
